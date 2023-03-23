@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Book&Room/es/propietarios</title>
+        <link rel="shortcut icon" href="./img/icons/logo.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="keywords" content="room,book,alquilar,habitacion,erasmus,reserva">
+        <meta name="author" content="TwentyFiend">
+        <meta name="robots" content="index">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./css/infopages.css">
+        <link rel="stylesheet" href="./css/commonstyle.css">
+        <script src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <header class="cabecera">
+
+            <a href="javascript:void(0)" class="acceso__boton fas fa-bars" id="barritas" onclick="active()"></a>
+            <ul id="acceso__rapido" style="opacity:0">
+                <li class="acceso__list fas fa-magnifying-glass-location"><a class="lista_rapida" href="./busqueda">  ASISTENTE DE BÚSQUEDA</a></li>
+                <li class="acceso__list fas fa-circle-question"><a class="lista_rapida" href="./inquilinos">  SOBRE NOSOTROS</a></li>
+                <li class="acceso__list fas fa-address-book"><a class="lista_rapida" href="./propietarios">  CONTACTO PROPIETARIOS</a></li>
+            </ul>
+        
+            <script>
+                function active(){
+                    let element=document.getElementById("acceso__rapido");
+                    let valor= element.style.opacity;
+                    switch (valor){
+                        case '0':
+                            document.getElementById("acceso__rapido").style.opacity="1";
+                            document.getElementById("acceso__rapido").style.left="-4px";
+                            document.getElementById("barritas").style.backgroundColor="#b48372"
+                            break;
+                        case '1':
+                            document.getElementById("acceso__rapido").style.opacity="0";
+                            document.getElementById("acceso__rapido").style.left="-800px";
+                            document.getElementById("barritas").style.backgroundColor=""
+                            break;
+                    }
+                }
+            </script>
+        
+            <div class="nombre">
+                <a href="./"><h1 class="title">BOOK&ROOM</h1></a>
+                <p class="idioma">es</p>
+            </div>
+        
+            <div class="header_icons">
+                <a href="C:/Users/TWENTY/Desktop/JAVASCRIPT/MAIN_MENU.html"><img class="language" src="./img/icons/english_flag.ico"></img></a>
+                <img class="logo" src="./img/pics/logo.png" alt="logo_principal"></img></a>
+            </div>
+        </header>
+
+        <article>
+
+            <nav class="accesos_bloque">
+                <a class="elemento_accesos" href="#Who">¿Quienes somos?</a>
+                <a class="elemento_accesos" href="#What">¿Qué hacemos?</a>
+                <a class="elemento_accesos" href="#Principios">Nuestro programa</a>
+                <a class="elemento_accesos" href="#Contacto">Contacto</a>
+            </nav>
+
+            <div id="bloque_propietarios">
+                <div class="titulo">
+                    <h2 id="titulo_portada">BIENVENIDO AL PROGRAMA PARA PROPIETARIOS DE BOOK&ROOM</h2>
+                </div>
+                <img class="imagen_portada" src="./img/pics/portada.jpg" alt="portada.jpg">
+                <div class="frase">
+                    <h3>"Nosotros gestionamos tu inmueble, tú solo disfruta"</h3>
+                </div>
+            </div>
+            <br id="Who">
+            <br>
+            <div class="who_container hrhover">
+                <h2 class="titulos">¿QUIENES SOMOS?</h2>
+                <p class="contenido_info">
+                    Book&Room es una empresa que ha nacido de la <b style="color:#b48372;font-size:120%;">necesidad de los propietarios</b> 
+                    por encontrar seguridad a la hora de alquilar su vivienda, junto con la demanda de personas que necesitan 
+                    encontrar una habitación en alquiler por diversos motivos:
+                    <hr>
+                </p>
+                <div id="motivos">
+                    <div class="motivo">cambio de residencia por trabajo</div>
+                    <div class="motivo">estudio de oposiciones</div>
+                    <div class="motivo">estudios de grado o master</div>
+                </div>
+                <br>
+            </div>
+            <br id="What">
+            <br>
+            <div class="what_container hrhover">
+                <h2 class="titulos">¿QUÉ HACEMOS?</h2>
+                <p class="contenido_info">
+                    Ofrecemos la gestión de su vivienda proporcionando un cobro y una rentabilidad segura, a través de una gestión estudiada 
+                    y meticulosa de selección, garantizando el mejor trato para su vivienda.<br>
+                    Nuestro negocio se basa en el alquiler o compra de viviendas y subarriendo de habitaciones. Es decir, alquilamos un 
+                    piso por la cantidad acordada con el propietario, y posteriormente alquilamos las habitaciones individualmente 
+                    en base a nuestros <b style="color:#b48372;font-size:120%;">principios básicos</b>.<br>
+                </p>
+            </div>
+            <br id="Principios">
+            <br>
+            <div class="principios_container hrhover">
+                <h2 class="titulos">BOOK&ROOM SE BASA EN</h2>
+                <h3 class="titulo_apoyo">5 PRINCIPIOS</h3>
+                <hr>
+                
+                <div class="bloque_principios">
+                    <div class="vl"></div>
+                    <div class="elemento_principio" id="principio_1">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">1 Alquiler de larga estancia</div>
+                        </div>
+                        <p class="info_principios">Firmamos el contrato de 5 años, tiempo durante el cual el propietario se olvida de realizar 
+                            gestiones, únicamente recibe el beneficio de alquilar su inmueble sin preocupaciones.
+                        </p>
+                        <div class="imagen_contenedor">                        
+                            <img class="imagen_principio" src="./img/pics/estancia.png" alt="estancia.png">
+                        </div>                   
+                    </div>
+                    <div class="elemento_principio" id="principio_2">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">2 Pago seguro</div>
+                        </div>
+                        <p class="info_principios">El piso lo alquilamos a nuestro nombre y, por lo tanto, los responsables del pago somos 
+                            nosotros,con una solvencia de más de 4000€ mensuales además de la gestión de patrimonio 
+                            que ascendería a 8000€ mensuales.
+                        </p>
+                        <div class="imagen_contenedor">                    
+                            <img class="imagen_principio" src="./img/pics/candado.png" alt="candado.png">
+                        </div>                   
+                    </div>
+                    <div class="elemento_principio" id="principio_3">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">3 Tranquilidad y seguridad</div>
+                        </div>
+                        <p class="info_principios">En el caso de que ocurra algún desperfecto en la vivienda, se les cobra una fianza a cada uno 
+                            de los inquilinos. De esta forma, cualquier desperfecto que no sea debido al uso cotidiano 
+                            se cubrirá con esta fianza.
+                        </p>
+                        <div class="imagen_contenedor">                    
+                            <img class="imagen_principio" src="./img/pics/vitrina.png" alt="vitrina.png">
+                        </div>                   
+                    </div>
+                    <div class="elemento_principio" id="principio_4">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">4 Estudio de perfiles y fichas</div>
+                        </div>
+                        <p class="info_principios">Relizamos un estudio de cada uno de los perfiles muy exhaustivo para evitar cualquier 
+                            problema. Además realizamos fichas de cada inquilino para que los propietarios 
+                            sepan quién vive en su inmueble.
+                        </p>
+                        <div class="imagen_contenedor">                    
+                            <img class="imagen_principio" src="./img/pics/carpesano.png" alt="carpesano.png">
+                        </div>                   
+                    </div>
+                    <div class="elemento_principio" id="principio_5">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">5 Condiciones estrictas</div>
+                        </div>
+                        <p class="info_principios">Sólo se admite una persona por habitación, no se admiten parejas ni fumadores. La estancia 
+                            mínima es de 6 meses, para evitar demasiada rotación de inquilinos.
+                        </p>
+                        <div class="imagen_contenedor">                    
+                            <img class="imagen_principio" src="./img/pics/estricto.png" alt="estricto.png">
+                        </div>                   
+                    </div>
+                </div>
+                
+            </div>
+            <br id="Contacto">
+            <br>
+            <div class="contacto_container hrhover">
+                <h2 class="titulos">CONTACTO</h2>
+                <div class="contacto_block bloque_telefono">
+                   <a href="tel:+34624600063"><i class="contact_icon fas fa-phone"></i></a>
+                    <h4 class="contacto_data">624 600 063</h4>
+                </div>
+                <div class="contacto_block bloque_email">
+                    <a href="mailto:bookandroomsp@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain"><i class="contact_icon  fas fa-envelope"></i></a>
+                    <h4 class="contacto_data">bookandroomsp@gmail.com</h4>
+                </div>
+                <div class="contacto_block bloque_instagram">
+                    <a href="https://www.instagram.com/bookandroomsp" target="_BLANCK"><i class="contact_icon fab fa-instagram" id="instagram"></i></a>
+                    <h4 class="contacto_data">@bookandroomsp</h4>
+                </div>
+            </div>
+
+        </article>
+        <br>
+        <br>
+
+        <footer>
+            <br>
+            <p class="title_footer">BOOK&ROOM</p>
+        
+            <div class="bloques_footer_container">
+                <div class="bloque_footer">
+                    <br>
+                    <hr class="hr_bloque">
+                    <a class="acceso_footer" href="./inquilinos">Sobre Nosotros</a>
+                    <a class="acceso_footer" href="./aviso_legal">Aviso Legal</a>
+                    <a class="acceso_footer" href="./privacidad">Políticas de Privacidad</a>
+                    <a class="acceso_footer" href="./cookies">Políticas de Cookies</a>
+                    <div class="redes_footer">
+                        <a class="redes fab fa-instagram" href="https://www.instagram.com/bookandroomsp" target="_BLANCK"></a>
+                        <a class="redes fab fa-linkedin" href="https://www.linkedin.com/company/bookandroom" target="_BLANCK"></a>
+                    </div>
+                </div>
+            
+                <div class="bloque_footer">
+                    <br>
+                    <hr class="hr_bloque">
+                    <div class="horario">
+                        <h4 class="titulos_footer">Atención al cliente</h4>
+                        <p class="texto_footer">De lunes a viernes de 9:00 a 14:00 y de 16:00 a 19:00</p>
+                    </div>
+                    <div class="ubicaciones">
+                        <div class="ubicacion_container">
+                            <h4 class="titulos_footer">Castellón:</h4>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-phone"></i>
+                                <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 031 008</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-envelope"></i>
+                                <a class="acceso_contact" href="mailto:bookandroomcs@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomcs@gmail.com</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                <a class="acceso_contact" href="https://wa.me/624031008" target="_blank">Contacta por Whatsapp</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="ubicacion_container">
+                            <h4 class="titulos_footer">Valencia:</h4>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-phone"></i>
+                                <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 600 063</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-envelope"></i>
+                                <a class="acceso_contact" href="mailto:bookandroomvlc@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomvlc@gmail.com</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                <a class="acceso_contact" href="https://wa.me/624600063" target="_blank">Contacta por Whatsapp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr class="hr_footer">
+            <br>
+            <p class="propiedad fas fa-copyright">2022 Book&Room</p>
+        </footer>
+
+    </body>
+
+
+
+</html>

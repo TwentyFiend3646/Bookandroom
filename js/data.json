@@ -1,0 +1,288 @@
+[
+    {
+        "ubicacion":"vl",
+        "name":"la Plata I",
+        "imagen":"./img/pisos/vlc/1. Plata 99/7.Comedor2.jpg",
+        "enlace":"./La_Plata",
+        "caracteristicas":{
+            "1":"6 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Televisión",
+            "5":"Ascensor"
+        },
+        "precio_min":"325",
+        "precio_max":"375"
+    },
+    {
+        "ubicacion":"vl",
+        "name":"la Plata II",
+        "imagen":"./img/pisos/vlc/1. Plata 99/7.Comedor2.jpg",
+        "enlace":"./La_Plata",
+        "caracteristicas":{
+            "1":"6 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Televisión",
+            "5":"Ascensor"
+        },
+        "precio_min":"325",
+        "precio_max":"375"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Corte Inglés",
+        "imagen":"./img/pisos/1. España 5/3.Comedor4.JPG",
+        "enlace":"./España1",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Climatizado",
+            "5":"Ascensor"
+        },
+        "precio_min":"350",
+        "precio_max":"375"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Corte Inglés",
+        "imagen":"./img/pisos/2. España 7/4.Habitacion1.1.jpeg",
+        "enlace":"./España2",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Climatizado",
+            "5":"Ascensor"
+        },
+        "precio_min":"340",
+        "precio_max":"375"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Fadrell",
+        "imagen":"./img/pisos/3. Asensi 6/9.Cocina.jpeg",
+        "enlace":"./Asensi",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Calefacción",
+            "5":"Ascensor"
+        },
+        "precio_min":"275",
+        "precio_max":"340"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Corte Inglés",
+        "imagen":"./img/pisos/4. Union 3/3.Habitacion3.jpeg",
+        "enlace":"./Union",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Televisión"
+        },
+        "precio_min":"260",
+        "precio_max":"330"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Ribalta",
+        "imagen":"./img/pisos/5. Ribalta 27/5.Cocina2.jpg",
+        "enlace":"./Ribalta",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza exterior"
+        },
+        "precio_min":"225",
+        "precio_max":"320"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Donoso Cortés",
+        "imagen":"./img/pisos/6. Vinatea 21/6.Cocina.jpeg",
+        "enlace":"./Vinatea",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza exterior"
+        },
+        "precio_min":"250",
+        "precio_max":"315"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"María Agustina",
+        "imagen":"./img/pisos/7. Tarragona/7.Cocina1.jpg",
+        "enlace":"./Tarragona",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza exterior"
+        },
+        "precio_min":"300",
+        "precio_max":"350"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Trinidad",
+        "imagen":"./img/pisos/8. Trinidad/1.Habitación1.1.jpg",
+        "enlace":"./Trinidad",
+        "caracteristicas":{
+            "1":"6 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Televisión"
+        },
+        "precio_min":"290",
+        "precio_max":"350"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Ribalta",
+        "imagen":"./img/pisos/9. Pérez Galdós/6.Baño1.1.jpg",
+        "enlace":"./Galdos",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza exterior"
+        },
+        "precio_min":"250",
+        "precio_max":"340"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Rey Don Jaime I",
+        "imagen":"./img/pisos/10. Jaime 1/3.Habitacion3.1.JPG",
+        "enlace":"./Jaime_I",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza exterior"
+        },
+        "precio_min":"275",
+        "precio_max":"340"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Casalduch",
+        "imagen":"./img/pisos/11. Casalduch 1/3.Habitacion3.1.jpg",
+        "enlace":"./Casalduch",
+        "caracteristicas":{
+            "1":"6 habitaciones",
+            "2":"3 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Televisión"
+        },
+        "precio_min":"260",
+        "precio_max":"350"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Pintor Soler Blasco",
+        "imagen":"./img/pisos/12. Pintor Soler Blasco 1/7.Cocina.jpeg",
+        "enlace":"./Soler_Blasco",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Climatizado"
+        },
+        "precio_min":"320",
+        "precio_max":"360"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Felix Breva",
+        "imagen":"./img/pisos/13. Félix breva/3.Cocina1.2.JPG",
+        "enlace":"./Felix_Breva",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Climatizado"
+        },
+        "precio_min":"280",
+        "precio_max":"340"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Pintor Soler Blasco",
+        "imagen":"./img/pisos/14. Pintor Soler Blasco 2/2.Comedor1.2.JPG",
+        "enlace":"./Soler_Blasco2",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Climatizado"
+        },
+        "precio_min":"350",
+        "precio_max":"380"
+    },
+    {
+        "ubicacion":"cs",
+        "name":"Sagunto",
+        "imagen":"./img/pisos/15. Sagunto 7/Comedor 1.2.jpg",
+        "enlace":"./Sagunto_7",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Climatizado"
+        },
+        "precio_min":"300",
+        "precio_max":"330"
+    },
+    {
+        "ubicacion":"",
+        "name":"",
+        "imagen":"",
+        "enlace":"",
+        "caracteristicas":{
+            "1":"",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
+        "ubicacion":"",
+        "name":"",
+        "imagen":"",
+        "enlace":"",
+        "caracteristicas":{
+            "1":"",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    }
+]
+

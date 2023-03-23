@@ -1,0 +1,140 @@
+
+/* ZONA ARTICLE */
+
+    #big_container{
+        display:grid;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        width: 95%;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        box-shadow: 2px 2px 10px  #000;
+    }
+
+    #titulo_principal{
+        color: #fff;
+        font-size: 300%;
+        text-shadow: 2px 2px 4px #e08e73;
+        background-color: #dfc6be;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        width: 100%;
+        padding: 6px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        box-shadow: 0px 1px 20px  rgb(105, 105, 105);
+    }
+
+    .politica{
+        width: 92%;
+        margin: auto;
+        padding: 10px;
+        text-align: justify;
+        text-justify: inter-word;
+        border:2px solid #b48372;
+        border-radius: 6px;
+    }
+
+    .titulo_politica{
+        text-align: left;
+        color:#b48372;
+        font-size: 120%;
+    }
+
+    .contenido_politica{
+        color:#000;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .contenido_remarcado{
+        color: #b48372;
+        font-size: 110%;
+    }
+
+    .listado_politica{
+        color:#000;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    li{
+        color:#000;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    a{
+        color:#b48372;
+    }
+
+    a::after{
+        color:#b48372
+    }
+
+
+    /* EXCLUSIVO PAGINA DE COOKIES */
+
+    #cookie_intro{
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-weight: bold;
+    }
+
+    #responsive{
+        display:none;
+    }
+
+    .tabla_cookies{
+        display: grid;
+        margin: auto;
+        padding: 0%;
+        text-decoration: none;
+        grid-template-columns: repeat(4,1fr);
+        border: 2px solid #000;
+        border-radius: 6px;
+    }
+
+    .name{
+        list-style: none;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px;
+        background-color: rgb(235, 171, 160);
+        border: 1px solid #000;
+    }
+
+    .cookie_info{
+        list-style: none;
+        color: #000;
+        text-align: center;
+        padding: 4px;
+        border: 1px solid #000;
+    }
+
+    @media only screen and (max-width: 500px){
+        #normal{
+            display:none;
+        }
+        #responsive{
+            display:grid;
+        }
+        .tabla_cookies{
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+
+    .web_cookie{
+        transition: all .3s ease;
+    }
+
+    .web_cookie:hover{
+        padding:10px;
+    }
+
+

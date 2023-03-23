@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Book&Room/es/busqueda_Editor mode</title>
+        <link rel="shortcut icon" href="./img/icons/logo.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="keywords" content="room,book,alquilar,habitacion,erasmus,reserva">
+        <meta name="author" content="TwentyFiend">
+        <meta name="robots" content="index">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./css/busqueda.css">
+        <link rel="stylesheet" href="./css/commonstyle.css">
+        <script src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="acceso_container">
+            <div class="form_container">
+                <div class="form_element">                
+                    <label for="pnombre">CONTRASEÑA</label>
+                    <br>
+                    <input type="password" class="relleno" id="password" name="Password" placeholder="Contraseña..." required>
+                </div>
+                <div class="form_buttons">
+                    <button onclick="accesoclave()">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <script>
+            function accesoclave(){
+                let entrada=document.getElementById('password').value;
+                if(entrada==='Castellon5'){
+                    document.getElementById('acceso_container').style.display="none";
+                    document.getElementById('cuerpo').style.display="block";
+                }
+                if(entrada!='Castellon5'){
+                    alert("Contraseña Erronea");
+                }
+            }
+        </script>
+        <div id="cuerpo" style="display:none">
+            <header class="cabecera">
+
+                <a href="javascript:void(0)" class="acceso__boton fas fa-bars" id="barritas" onclick="active()"></a>
+                <ul id="acceso__rapido" style="opacity:0">
+                    <li class="acceso__list fas fa-magnifying-glass-location"><a class="lista_rapida" href="./busqueda">  ASISTENTE DE BÚSQUEDA</a></li>
+                    <li class="acceso__list fas fa-circle-question"><a class="lista_rapida" href="./inquilinos">  SOBRE NOSOTROS</a></li>
+                    <li class="acceso__list fas fa-address-book"><a class="lista_rapida" href="./propietarios">  CONTACTO PROPIETARIOS</a></li>
+                </ul>
+            
+                <script>
+                    function active(){
+                        let element=document.getElementById("acceso__rapido");
+                        let valor= element.style.opacity;
+                        switch (valor){
+                            case '0':
+                                document.getElementById("acceso__rapido").style.opacity="1";
+                                document.getElementById("acceso__rapido").style.left="-4px";
+                                document.getElementById("barritas").style.backgroundColor="#b48372"
+                                break;
+                            case '1':
+                                document.getElementById("acceso__rapido").style.opacity="0";
+                                document.getElementById("acceso__rapido").style.left="-800px";
+                                document.getElementById("barritas").style.backgroundColor=""
+                                break;
+                        }
+                    }
+                </script>
+            
+                <div class="nombre">
+                    <a href="./"><h1 class="title">EDITOR_MODE</h1></a>
+                    <p class="idioma">es</p>
+                </div>
+            
+                <div class="header_icons">
+                    <a href="C:/Users/TWENTY/Desktop/JAVASCRIPT/MAIN_MENU.html"><img class="language" src="./img/icons/english_flag.ico"></img></a>
+                    <img class="logo" src="./img/pics/logo.png" alt="logo_principal"></img></a>
+                </div>
+            </header>
+    
+            <article>
+                <div id="primera_seleccion">
+                    <br>
+                    <h2 class="titulos">Selecciona la ciudad:</h2>
+                    <div class="ciudades_container">
+                        <div class="ciudad">
+                            <img class="img_seleccion" src="./img/pics/castellon.jpg" alt="castellon.jpg" onclick="seleccion('a')">
+                            <h3 class="name">Castellón</h3>
+                        </div>
+                        <div class="ciudad">
+                            <img class="img_seleccion" src="./img/pics/valencia.jpg" alt="valencia.jpg" onclick="seleccion('b')">
+                            <h3 class="name">Valencia</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="listado" id="cs">
+                    <h2 class="titulos">Pisos en Castellón:</h2>
+                    <div class="selector_container">
+                        <p class="option" id="List_op" onclick="switchmode2('a')">Lista</p>
+                        <p class="option" id="Map_op" onclick="switchmode2('b')">Mapa</p>
+                    </div>
+                    <div id="cs_map" class="map_pisos">
+                        <div class="map_container">
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1Iu_5um2OpvqGHCc3Q_cmKVcVkFFoibDE&hl=ca&ehbc=2E312F" width="1000" height="1000"></iframe>
+                        </div>
+                    </div>
+                    <div id="cs_list" class="pisos_container">
+                        <div class="piso">
+                            <h3 class="name">Piso en Plaza España</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/1. España 5/3.Comedor4.JPG" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./España1_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">4 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Climatizado</li>
+                                <li class="list_element">Ascensor</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 350€ hasta 375€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Plaza España</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/2. España 7/4.Habitacion1.1.jpeg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./España2_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">4 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Climatizado</li>
+                                <li class="list_element">Ascensor</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 340€ hasta 375€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Calle Asensi</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/3. Asensi 6/9.Cocina.jpeg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Asensi_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">5 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Calefacción</li>
+                                <li class="list_element">Ascensor</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 275€ hasta 340€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Calle la Unión</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/4. Union 3/3.Habitacion3.jpeg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Union_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">4 habitaciones</li>
+                                <li class="list_element">1 baño</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Televisión</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 260€ hasta 330€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Paseo Ribalta</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/5. Ribalta 27/5.Cocina2.jpg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Ribalta_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">4 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Terraza exterior</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 225€ hasta 320€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Vinatea</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/6. Vinatea 21/6.Cocina.jpeg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Vinatea_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">4 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Terraza exterior</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 250€ hasta 315€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Calle Tarragona</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/7. Tarragona/7.Cocina1.jpg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Tarragona_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">5 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Terraza interior</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 300€ hasta 350€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Calle Trinidad</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/8. Trinidad/1.Habitación1.1.jpg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Trinidad_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">6 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Televisión</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 290€ hasta 350€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Avenida Perez Galdós</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/9. Pérez Galdós/6.Baño1.1.jpg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Galdos_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">5 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Terrazza exterior</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 250€ hasta 340€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Avenida Jaime I</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/10. Jaime 1/3.Habitacion3.1.JPG" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Jaime_I_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">5 habitaciones</li>
+                                <li class="list_element">1 baño</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Terraza exterior</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 275€ hasta 340€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en Avenida Casalduch</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/11. Casalduch 1/3.Habitacion3.1.jpg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Casalduch_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">6 habitaciones</li>
+                                <li class="list_element">3 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Televisión</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 260€ hasta 350€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en zona Pintor Soler Blasco</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/12. Pintor Soler Blasco 1/7.Cocina.jpeg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Soler_Blasco_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">5 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Climatizado</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 320€ hasta 360€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en zona Felix Breva</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/13. Félix breva/3.Cocina1.2.JPG" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Felix_Breva_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">5 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Climatizado</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 280€ hasta 340€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en zona Pintor Soler Blasco</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/14. Pintor Soler Blasco 2/2.Comedor1.2.JPG" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Soler_Blasco2_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">4 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Climatizado</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 350€ hasta 380€</h4>
+                        </div>
+                        <br>
+                        <div class="piso">
+                            <h3 class="name">Piso en zona Sagunto</h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/15. Sagunto 7/Comedor 1.2.jpg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./Sagunto_7_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">4 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Ascensor</li>
+                                <li class="list_element">Climatizado</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 300€ hasta 330€</h4>
+                        </div>
+                        <br>
+                        
+                    </div>
+                    
+                    <br>
+                    <button class="return" onclick="inicio()"><a href="#cuerpo">Volver</a></button>
+                    
+                </div>
+                <div class="listado" id="vl">
+                    <h2 class="titulos">Pisos en Valencia:</h2>
+                    <div class="selector_container">
+                        <p class="option" id="List_op_vl" onclick="switchmodevl2('a')">Lista</p>
+                        <p class="option" id="Map_op_vl" onclick="switchmodevl2('b')">Mapa</p>
+                    </div>
+                    <div id="vl_map" class="map_pisos">
+                        <div class="map_container">
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Y8PGlRoeicYUHhqgxNz1xk5tR8-rL8g&ehbc=2E312F" width="1000" height="1000"></iframe>
+                        </div>
+                    </div>
+                    <div id="vl_list" class="pisos_container">
+                        <div class="piso">
+                            <h3 class="name">Piso en Avenida la Plata </h3>
+                            <div class="img_container">
+                                <img class="img_piso" src="./img/pisos/vlc/1. Plata 99/7.Comedor2.jpg" alt="imagen.jpg">
+                                <a class="acceso_piso" href="./La_Plata_editor" target="_blank">Más info</a>
+                            </div>
+                            
+                            <ul class="descripcion">
+                                <li class="list_element">6 habitaciones</li>
+                                <li class="list_element">2 baños</li>
+                                <li class="list_element">Internet</li>
+                                <li class="list_element">Televisión</li>
+                                <li class="list_element">Ascensor</li>
+                            </ul>
+                            <h4 class="price">Precio habitaciones: desde 325€ hasta 375€</h4>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    <button class="return" onclick="inicio()"><a href="#cuerpo">Volver</a></button>
+                    
+                </div>
+                <script>
+                    function seleccion(value){
+                        if(value==='a'){
+                            document.getElementById("primera_seleccion").style.display="none";   
+                            document.getElementById("cs").style.display="block";
+                            document.getElementById("vl").style.display="none";
+                        }
+                        if(value==='b'){
+                            document.getElementById("primera_seleccion").style.display="none";   
+                            document.getElementById("vl").style.display="block";
+                            document.getElementById("cs").style.display="none";
+                        }
+                            
+                    }
+                    function inicio(){
+                        document.getElementById("primera_seleccion").style.display="block";
+                        document.getElementById("cs").style.display="none";
+                        document.getElementById("vl").style.display="none";
+                    }
+                    function switchmode2(value){
+                        if(value==='a'){
+                            document.getElementById("cs_list").style.display="flex";
+                            document.getElementById("cs_map").style.display="none";
+                            document.getElementById("List_op").style.background="#dfc6be";
+                            document.getElementById("List_op").style.fontWeight="bold";
+                            document.getElementById("Map_op").style.background="none";
+                            document.getElementById("Map_op").style.fontWeight="normal";
+                        }
+                        if(value==='b'){
+                            document.getElementById("cs_list").style.display="none";
+                            document.getElementById("cs_map").style.display="flex";
+                            document.getElementById("List_op").style.background="none";
+                            document.getElementById("List_op").style.fontWeight="normal";
+                            document.getElementById("Map_op").style.background="#dfc6be";
+                            document.getElementById("Map_op").style.fontWeight="bold";
+                        }
+                    }
+                    function switchmodevl2(value){
+                        if(value==='a'){
+                            document.getElementById("vl_list").style.display="flex";
+                            document.getElementById("vl_map").style.display="none";
+                            document.getElementById("List_op_vl").style.background="#dfc6be";
+                            document.getElementById("List_op_vl").style.fontWeight="bold";
+                            document.getElementById("Map_op_vl").style.background="none";
+                            document.getElementById("Map_op_vl").style.fontWeight="normal";
+                        }
+                        if(value==='b'){
+                            document.getElementById("vl_list").style.display="none";
+                            document.getElementById("vl_map").style.display="flex";
+                            document.getElementById("List_op_vl").style.background="none";
+                            document.getElementById("List_op_vl").style.fontWeight="normal";
+                            document.getElementById("Map_op_vl").style.background="#dfc6be";
+                            document.getElementById("Map_op_vl").style.fontWeight="bold";
+                        }
+                    }
+                </script>
+                <br>
+                <br>
+            </article>
+            <footer>
+                <br>
+                <p class="title_footer">BOOK&ROOM</p>
+            
+                <div class="bloques_footer_container">
+                    <div class="bloque_footer">
+                        <br>
+                        <hr class="hr_bloque">
+                        <a class="acceso_footer" href="./inquilinos">Sobre Nosotros</a>
+                        <a class="acceso_footer" href="./aviso_legal">Aviso Legal</a>
+                        <a class="acceso_footer" href="./privacidad">Políticas de Privacidad</a>
+                        <a class="acceso_footer" href="./cookies">Políticas de Cookies</a>
+                        <div class="redes_footer">
+                            <a class="redes fab fa-instagram" href="https://www.instagram.com/bookandroomsp" target="_BLANCK"></a>
+                            <a class="redes fab fa-linkedin" href="https://www.linkedin.com/company/bookandroom" target="_BLANCK"></a>
+                        </div>
+                    </div>
+                
+                    <div class="bloque_footer">
+                        <br>
+                        <hr class="hr_bloque">
+                        <div class="horario">
+                            <h4 class="titulos_footer">Atención al cliente</h4>
+                            <p class="texto_footer">De lunes a viernes de 9:00 a 14:00 y de 16:00 a 19:00</p>
+                        </div>
+                        <div class="ubicaciones">
+                            <div class="ubicacion_container">
+                                <h4 class="titulos_footer">Castellón:</h4>
+                                <div class="contact_element">
+                                    <i class="acceso_contact_icon fas fa-phone"></i>
+                                    <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 031 008</a>
+                                </div>
+                                <div class="contact_element">
+                                    <i class="acceso_contact_icon fas fa-envelope"></i>
+                                    <a class="acceso_contact" href="mailto:bookandroomcs@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomcs@gmail.com</a>
+                                </div>
+                                <div class="contact_element">
+                                    <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                    <a class="acceso_contact" href="https://wa.me/624031008" target="_blank">Contacta por Whatsapp</a>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="ubicacion_container">
+                                <h4 class="titulos_footer">Valencia:</h4>
+                                <div class="contact_element">
+                                    <i class="acceso_contact_icon fas fa-phone"></i>
+                                    <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 600 063</a>
+                                </div>
+                                <div class="contact_element">
+                                    <i class="acceso_contact_icon fas fa-envelope"></i>
+                                    <a class="acceso_contact" href="mailto:bookandroomvlc@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomvlc@gmail.com</a>
+                                </div>
+                                <div class="contact_element">
+                                    <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                    <a class="acceso_contact" href="https://wa.me/624600063" target="_blank">Contacta por Whatsapp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr class="hr_footer">
+                <br>
+                <p class="propiedad fas fa-copyright">2022 Book&Room</p>
+            </footer>
+        </div>
+    </body>
+</html>

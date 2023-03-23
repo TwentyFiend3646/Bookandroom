@@ -1,0 +1,339 @@
+
+/* ZONA ARTICLE */
+
+#titulo_piso{
+    color: #fff;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px #e08e73;
+    background-color: #dfc6be;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 6px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0px 1px 20px  rgb(105, 105, 105);
+}
+
+#bloque_fotos{
+    position: relative;
+    margin: auto;
+    object-fit: cover;
+    width: 95%;
+    height:auto;
+    min-height: 200px;
+    max-width: 1000px;
+   
+}
+
+.imagen_portada{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    max-height: 750px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px  #000;
+}
+
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: auto;
+    padding: 8px;
+    margin-top: -22px;
+    color: #fff;
+    background-color: #88888890;
+    font-weight: bold;
+    font-size: 100%;
+    transition: .6s ease;
+    border-radius: 0 6px 6px 0;
+    user-select: none;
+}
+
+.next{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    top:50%;
+    right: 0;
+    padding: 8px;
+    margin-top: -22px;
+    color: #fff;
+    background-color: #88888890;
+    font-weight: bold;
+    font-size: 100%;
+    transition: .6s ease;
+    border-radius: 6px 0 0 6px;
+    user-select: none;
+}
+
+.prev:hover, .next:hover{
+    background-color: #444444;
+}
+
+.numbertext{
+    display: inline;
+    position: absolute;
+    font-size: 100%;
+    padding: 8px 12px;
+    margin:6px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #88888890; 
+}
+
+.puntos_nav{
+    text-align: center;
+    bottom: 0px;
+}
+
+.punto{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #e7c1b5;
+    border: 2px solid #b48372;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease;
+}
+
+.active, .punto:hover{
+    background-color: #b48372;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+#titulo_habitaciones{
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 6px;
+    font-size: 200%;
+    text-shadow: 2px 2px 4px #e08e73;
+    color: #fff;
+    background-color: #dfc6be;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px  rgb(105, 105, 105);
+}
+
+.habitaciones_container{
+    display:grid;
+    width: 90%;
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+}
+
+.habitacion{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 2%;
+    background-color: rgb(255, 221, 221);
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px  #000;
+}
+
+.img_container{
+    width: 30%;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.name_room{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img_habitacion{
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #000;
+    border-radius: 6px;
+}
+
+.disponible_container{
+    width: 50%;
+    min-width: 350px;
+    margin: 10px;
+}
+
+.tarifa_reserva_container{
+    width: 10%;
+    min-width: 150px;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.titulo{
+    text-align: left;
+    color: rgb(114, 114, 114)
+}
+
+.titulo_año{
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    width: 100%;
+    margin: 0;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1px;
+}
+
+.f{
+    text-align: right;
+    padding: 1px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: bold;
+    font-size: 70%;
+    outline: 1px solid #000;
+    background-color: rgb(157, 240, 154);
+}
+
+.o{
+    text-align: right;
+    padding: 1px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: bold;
+    font-size: 70%;
+    outline: 1px solid #000;
+    background-color: rgb(235, 171, 160);
+}
+
+.tarifa{
+    position: relative;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    color: rgb(114, 114, 114);
+}
+
+.price{
+    color:#000;
+}
+
+
+
+/* ZONA FORMULARIO */
+
+.formulario_contacto{
+    position: absolute;
+    width: 100%;
+    height: min-content;
+    top:0;
+    z-index: 40;
+}
+
+#Form_display{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: max-content;
+}
+
+#Reserva{
+    margin:10px;
+    font-size: 22px;
+    color: #fff;
+}
+
+#bloque_formulario{
+    display:none;
+    width: 100%;
+    height: 100vmax;
+    background-color: #00000077;
+}
+
+#Formulario{
+    display: none;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    top:5%;
+    flex-direction: column;
+    background-color: #444444;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    width: 80%;
+    max-height: fit-content;
+    max-width: 600px;
+    animation-name:form_emergente;
+    animation-duration: .6s;
+}
+
+@keyframes form_emergente{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.form_element{
+    margin:10px;
+    color: #fff;
+}
+
+::placeholder{color: #fff;}
+::-webkit-calendar-picker-indicator{filter: invert(1);}
+#pais{color: #fff;background-color: #dba796;border: 2px solid #fff;border-radius: 6px;}
+
+.relleno{
+    width: 100%;
+    background-color: #dba796;
+    border:2px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.form_buttons{
+    flex-direction: column;
+    text-align: center;    
+}
+
+.boton_formulario , .open_button{
+    color:#dba796;
+    background-color: #fff;
+    border: 2px solid #dba796;
+    border-radius: 6px;
+}
+
+.open_button{
+    margin:12px;
+}
+
+.boton_formulario{
+    margin-bottom: 6px;
+}
+
+
+
+
+
+

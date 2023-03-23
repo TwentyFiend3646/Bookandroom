@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Book&Room/es/inquilinos</title>
+        <link rel="shortcut icon" href="./img/icons/logo.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="keywords" content="room,book,alquilar,habitacion,erasmus,reserva">
+        <meta name="author" content="TwentyFiend">
+        <meta name="robots" content="index">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./css/infopages.css">
+        <link rel="stylesheet" href="./css/commonstyle.css">
+        <script src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <header class="cabecera">
+
+            <a href="javascript:void(0)" class="acceso__boton fas fa-bars" id="barritas" onclick="active()"></a>
+            <ul id="acceso__rapido" style="opacity:0">
+                <li class="acceso__list fas fa-magnifying-glass-location"><a class="lista_rapida" href="./busqueda">  ASISTENTE DE BÚSQUEDA</a></li>
+                <li class="acceso__list fas fa-circle-question"><a class="lista_rapida" href="./inquilinos">  SOBRE NOSOTROS</a></li>
+                <li class="acceso__list fas fa-address-book"><a class="lista_rapida" href="./propietarios">  CONTACTO PROPIETARIOS</a></li>
+            </ul>
+        
+            <script>
+                function active(){
+                    let element=document.getElementById("acceso__rapido");
+                    let valor= element.style.opacity;
+                    switch (valor){
+                        case '0':
+                            document.getElementById("acceso__rapido").style.opacity="1";
+                            document.getElementById("acceso__rapido").style.left="-4px";
+                            document.getElementById("barritas").style.backgroundColor="#b48372"
+                            break;
+                        case '1':
+                            document.getElementById("acceso__rapido").style.opacity="0";
+                            document.getElementById("acceso__rapido").style.left="-800px";
+                            document.getElementById("barritas").style.backgroundColor=""
+                            break;
+                    }
+                }
+            </script>
+        
+            <div class="nombre">
+                <a href="./"><h1 class="title">BOOK&ROOM</h1></a>
+                <p class="idioma">es</p>
+            </div>
+        
+            <div class="header_icons">
+                <a href="C:/Users/TWENTY/Desktop/JAVASCRIPT/MAIN_MENU.html"><img class="language" src="./img/icons/english_flag.ico"></img></a>
+                <img class="logo" src="./img/pics/logo.png" alt="logo_principal"></img></a>
+            </div>
+        </header>
+        <article>
+            <nav class="accesos_bloque">
+                <a class="elemento_accesos" href="#Intro">¿Por qué elegirnos?</a>
+                <a class="elemento_accesos" href="#Ventajas">¿Qué tenemos?</a>
+                <a class="elemento_accesos" href="#Busqueda">Busca tu habitacion</a>
+                <a class="elemento_accesos" href="#Contacto">Contacto</a>
+            </nav>
+            <br id="Into">
+            <br>
+            <div class="bloque_infobasica hrhover">
+                <h2 class="titulos">¿POR QUÉ ELEGIRNOS?</h2>
+                <P class="contenido_info">
+                    Nuestro negocio se basa en el alquiler por corta, media o larga estancia para estudiantes o trabajadores. Estamos orientados para personas que vengan
+                     a establecerse por un periodo corto en la ciudad, y necesiten ayuda para encontrar alojamiento.<br>
+                    Desde <b style="color:#b48372;font-size:120%;">B&R</b> contamos con <b style="color:#b48372;font-size:120%;">6 ventajas</b> con respecto a
+                     realizar un alquiler por el método convencional:
+                </P>
+            </div>
+            <br id="Ventajas">
+            <br>
+            <div class="principios_container hrhover">
+                <h2 class="titulos">¿QUÉ TENEMOS PARA OFRECERTE?</h2>
+                <hr>
+
+                <div class="bloque_principios">
+                    <div class="vl"></div>
+                    <div class="elemento_principio" id="ventaja_1">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">1 Alquiler de plazo personalizado</div>
+                        </div>
+                        <p class="info_principios">
+                            Puedes alquilar tu habitracion desde 3 meses hasta un tiempo indefinido, el que tú necesites, evitando asi los contratos largos que no
+                             se adaptan a tus requisitos.
+                        </p>
+                        <div class="imagen_contenedor">
+                            <img class="imagen_principio" src="./img/pics/contrato.png" alt="contrato.png">
+                        </div>
+                    </div>
+                    <div class="elemento_principio" id="ventaja_">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">2 Asesoramiento</div>
+                        </div>
+                        <p class="info_principios">
+                            Los profesionales de B&R te aconsejarán según tus necesidades tanto económicas como laborales y buscarán la habitación que mejor se
+                             adapte a ti (seas estudiante o trabajador).
+                        </p>
+                        <div class="imagen_contenedor">
+                            <img class="imagen_principio" src="./img/pics/asesores.png" alt="asesores.png">
+                        </div>
+                    </div>
+                    <div class="elemento_principio" id="ventaja_">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">3 Servicio de mantenimiento</div>
+                        </div>
+                        <p class="info_principios">
+                            Desde B&R disponemos de un servicio rápido y eficaz para reparar cualquier incidente. Olvídate de esos caseros que hacen tan larga
+                             la espera para un simple arreglo.
+                        </p>
+                        <div class="imagen_contenedor">
+                            <img class="imagen_principio" src="./img/pics/reparador.png" alt="reparador.png">
+                        </div>
+                    </div>
+                    <div class="elemento_principio" id="ventaja_">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">4 Tu vivienda lista</div>
+                        </div>
+                        <p class="info_principios">
+                            Disponemos tanto de pisos como habitaciones con todas las equipaciones necesarias para que solo debas preocuparte de decorarlo a tu gusto,
+                             como si estuvieras en casa.
+                        </p>
+                        <div class="imagen_contenedor">
+                            <img class="imagen_principio" src="./img/pics/equipamientos.png" alt="equipamientos.png">
+                        </div>
+                    </div>
+                    <div class="elemento_principio" id="ventaja_">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">5 Te acompañamos en tu viaje</div>
+                        </div>
+                        <p class="info_principios">
+                            B&R no nos centramos solo en aqluilarte la habitación: te ayudamos en el proceso de adaptación a tu nuevo entorno, aconsejamos lugares
+                             de interés, actividades, restaurantes; ayudamos con los trámites legales que necesites. Nuestro lema: "Dispuestos a tí".
+                        </p>
+                        <div class="imagen_contenedor">
+                            <img class="imagen_principio" src="./img/pics/compañia.png" alt="compañia.png">
+                        </div>
+                    </div>
+                    <div class="elemento_principio" id="ventaja_">
+                        <div class="titulo_container">
+                            <div class="titulo_principios">6 Eventos para conocer gente</div>
+                        </div>
+                        <p class="info_principios">
+                            Cuando llegas por primera vez a un nuevo lugar, se hace cuesta arriba sobre todo si no conoces a nadie. Por eso, desde B&R también
+                             organizamos eventos, para que puedas conocer tanto a los demás integrantes del piso como nuevos interesados en formar parte de nosotros.
+                              Te ayudamos a hacer la cuesta más liviana.
+                        </p>
+                        <div class="imagen_contenedor">
+                            <img class="imagen_principio" src="./img/pics/cuesta.png" alt="cuesta.png">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <br id="Busqueda">
+            <br>
+            <div class="busqueda_container hrhover">
+                <h2 class="titulos">BUSCA TU LUGAR IDEAL AQUÍ</h2>
+                <a href="./busqueda"><img class="imagen_busqueda" src="./img/pics/portada.jpg" alt="imagen_modelo.jpg"></a>
+            </div>
+            <br id="Contacto">
+            <br>
+            <div class="contacto_container hrhover">
+                <h2 class="titulos">CONTACTO</h2>
+                <div class="contacto_block bloque_telefono">
+                   <a href="tel:+34624600063"><i class="contact_icon fas fa-phone"></i></a>
+                    <h4 class="contacto_data">624 600 063</h4>
+                </div>
+                <div class="contacto_block bloque_email">
+                    <a href="mailto:contacto@bookandroom.com?subject=Contacto%20inquilino" method="post" enctype="text/plain"><i class="contact_icon  fas fa-envelope"></i></a>
+                    <h4 class="contacto_data">bookandroomsp@gmail.com</h4>
+                </div>
+                <div class="contacto_block bloque_instagram">
+                    <a href="https://www.instagram.com/bookandroomsp" target="_BLANCK"><i class="contact_icon fab fa-instagram"></i></a>
+                    <h4 class="contacto_data">@bookandroomsp</h4>
+                </div>
+            </div>
+            <br>
+            <br>
+        </article>
+        <footer>
+            <br>
+            <p class="title_footer">BOOK&ROOM</p>
+        
+            <div class="bloques_footer_container">
+                <div class="bloque_footer">
+                    <br>
+                    <hr class="hr_bloque">
+                    <a class="acceso_footer" href="./inquilinos">Sobre Nosotros</a>
+                    <a class="acceso_footer" href="./aviso_legal">Aviso Legal</a>
+                    <a class="acceso_footer" href="./privacidad">Políticas de Privacidad</a>
+                    <a class="acceso_footer" href="./cookies">Políticas de Cookies</a>
+                    <div class="redes_footer">
+                        <a class="redes fab fa-instagram" href="https://www.instagram.com/bookandroomsp" target="_BLANCK"></a>
+                        <a class="redes fab fa-linkedin" href="https://www.linkedin.com/company/bookandroom" target="_BLANCK"></a>
+                    </div>
+                </div>
+            
+                <div class="bloque_footer">
+                    <br>
+                    <hr class="hr_bloque">
+                    <div class="horario">
+                        <h4 class="titulos_footer">Atención al cliente</h4>
+                        <p class="texto_footer">De lunes a viernes de 9:00 a 14:00 y de 16:00 a 19:00</p>
+                    </div>
+                    <div class="ubicaciones">
+                        <div class="ubicacion_container">
+                            <h4 class="titulos_footer">Castellón:</h4>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-phone"></i>
+                                <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 031 008</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-envelope"></i>
+                                <a class="acceso_contact" href="mailto:bookandroomcs@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomcs@gmail.com</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                <a class="acceso_contact" href="https://wa.me/624031008" target="_blank">Contacta por Whatsapp</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="ubicacion_container">
+                            <h4 class="titulos_footer">Valencia:</h4>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-phone"></i>
+                                <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 600 063</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-envelope"></i>
+                                <a class="acceso_contact" href="mailto:bookandroomvlc@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomvlc@gmail.com</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                <a class="acceso_contact" href="https://wa.me/624600063" target="_blank">Contacta por Whatsapp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr class="hr_footer">
+            <br>
+            <p class="propiedad fas fa-copyright">2022 Book&Room</p>
+        </footer>
+    </body>

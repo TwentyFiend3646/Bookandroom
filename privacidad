@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Book&Room/es/politica-de-privacidad</title>
+        <link rel="shortcut icon" href="./img/icons/logo.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="keywords" content="room,book,alquilar,habitacion,erasmus,reserva">
+        <meta name="author" content="TwentyFiend">
+        <meta name="robots" content="index">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./css/legal_elements.css">
+        <link rel="stylesheet" href="./css/commonstyle.css">
+        <script src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <header class="cabecera">
+
+            <a href="javascript:void(0)" class="acceso__boton fas fa-bars" id="barritas" onclick="active()"></a>
+            <ul id="acceso__rapido" style="opacity:0">
+                <li class="acceso__list fas fa-magnifying-glass-location"><a class="lista_rapida" href="./busqueda">  ASISTENTE DE BÚSQUEDA</a></li>
+                <li class="acceso__list fas fa-circle-question"><a class="lista_rapida" href="./inquilinos">  SOBRE NOSOTROS</a></li>
+                <li class="acceso__list fas fa-address-book"><a class="lista_rapida" href="./propietarios">  CONTACTO PROPIETARIOS</a></li>
+            </ul>
+        
+            <script>
+                function active(){
+                    let element=document.getElementById("acceso__rapido");
+                    let valor= element.style.opacity;
+                    switch (valor){
+                        case '0':
+                            document.getElementById("acceso__rapido").style.opacity="1";
+                            document.getElementById("acceso__rapido").style.left="-4px";
+                            document.getElementById("barritas").style.backgroundColor="#b48372"
+                            break;
+                        case '1':
+                            document.getElementById("acceso__rapido").style.opacity="0";
+                            document.getElementById("acceso__rapido").style.left="-800px";
+                            document.getElementById("barritas").style.backgroundColor=""
+                            break;
+                    }
+                }
+            </script>
+        
+            <div class="nombre">
+                <a href="./"><h1 class="title">BOOK&ROOM</h1></a>
+                <p class="idioma">es</p>
+            </div>
+        
+            <div class="header_icons">
+                <a href="C:/Users/TWENTY/Desktop/JAVASCRIPT/MAIN_MENU.html"><img class="language" src="./img/icons/english_flag.ico"></img></a>
+                <img class="logo" src="./img/pics/logo.png" alt="logo_principal"></img></a>
+            </div>
+        </header>
+
+        <article>
+            <h1 id="titulo_principal">POLITICAS DE PRIVACIDAD</h1>
+            <div id="big_container">
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">1. INFORMACION AL USUARIO</h2>
+                    <p class="contenido_politica"><b class="contenido_remarcado">BOOK&ROOM</b>, como Responsable del Tratamiento, le informa que, según lo dispuesto en el Reglamento (UE) 
+                        2016/679, de 27 de abril, (RGPD) y en la L.O. 3/2018, de 5 de diciembre, de protección de datos y garantía de los derechos digitales (LOPDGDD), 
+                        trataremos su datos tal y como reflejamos en la presente Política de Privacidad.</p>
+                    <br>
+                    <p class="contenido_politica">En esta Política de Privacidad describimos cómo recogemos sus datos personales y por qué los recogemos, qué hacemos con ellos, con quién 
+                        los compartimos, cómo los protegemos y sus opciones en cuanto al tratamiento de sus datos personales.</p>
+                    <br>
+                    <p class="contenido_politica">Esta Política se aplica al tratamiento de sus datos personales recogidos por la empresa para la prestación de sus servicios. Si acepta las 
+                        medidas de esta Política, acepta que tratemos sus datos personales como se define en esta Política.</p>
+                </div>
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">2. CONTACTO</h2>
+                    <ul class="listado_politica">
+                        <li>Nombre comercial: <b class="contenido_remarcado">BOOK&ROOM</b></li>
+                        <li>Domicilio: <b class="contenido_remarcado">Calle Asensi nº4 bajo</b></li>
+                        <li>e-mail: <b class="contenido_remarcado">bookandroomsp@gmail.com</b></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">3. PRINCIPIOS CLAVE</h2>
+                    <p class="contenido_politica">Siempre hemos estado comprometidos con prestar nuestros servicios con el más alto grado de calidad, lo que incluye tratar sus datos con 
+                        seguridad y transparencia. Nuestros principios son:</p>
+                    <br>
+                    <ul class="listado_politica">
+                        <li><b>Legalidad:</b> Solo recopilaremos sus Datos personales para fines específicos, explícitos y legítimos.</li>
+                        <li><b>Minimización de datos:</b> Limitamos la recogida de datos de carácter personal a lo que es estrictamente relevante y necesario para los fines para los que 
+                            se han recopilado.</li>
+                        <li><b>Limitación de la Finalidad:</b> Solo recogeremos sus datos personales para los fines declarados y solo según sus deseos.</li>
+                        <li><b>Precisión:</b> Mantendremos sus datos personales exactos y actualizados.</li>
+                        <li><b>Seguridad de datos:</b> Aplicamos las medidas técnicas y organizativas adecuadas y proporcionales a los riesgos para garantizar que sus datos no sufran daños, 
+                            tales como divulgación o acceso no autorizado, la destrucción accidental o ilícita o su pérdida accidental 
+                            o alteración y cualquier otra forma de tratamiento ilícito.</li>
+                        <li><b>Acceso y Rectificación</b> Disponemos de medios para que acceda o rectifique sus datos cuando lo considere oportuno.</li>
+                        <li><b>Conservación:</b> Conservamos sus datos personales de manera legal y apropiada y solo mientras es necesario para los fines para los que se han recopilado.</li>
+                        <li><b>Las transferencias internacionales:</b> cuando se dé el caso de que sus datos vayan a ser transferidos fuera de la UE/EEE se protegerán adecuadamente.</li>
+                        <li><b>Terceros:</b> El acceso y transferencia de datos personales a terceros se llevan a cabo de acuerdo con las leyes y reglamentos aplicables y con las garantías 
+                            contractuales adecuadas.</li>
+                        <li><b>Marketing Directo y cookies</b> Cumplimos con la legislación aplicable en materia de publicidad y cookies.</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">4. RECOGIDA Y TRATAMIENTO DE SUS DATOS PERSONALES</h2>
+                    <p class="contenido_politica">Los tipos de datos que se pueden solicitar y tratar son:</p>
+                    <br>
+                    <ul class="listado_politica">
+                        <li>Datos de carácter identificativo</li>
+                    </ul>
+                    <br>
+                    <p class="contenido_politica">También recogemos de forma automática datos sobre su visita a nuestro sitio web  según se describe en la política de cookies.</p>
+                    <br>
+                    <p class="contenido_politica">Siempre que solicitemos sus Datos personales, le informaremos con claridad de qué datos personales recogemos y con qué fin. 
+                        En general, recogemos y tratamos sus datos personales con el propósito de:</p>
+                    <br>
+                    <ul class="listado_politica">
+                        <li>Proporcionar información, servicios, productos, información relevante y novedades en el sector.</li>
+                        <li>Envío de comunicaciones.</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">5. LEGITIMIDAD</h2>
+                    <p class="contenido_politica">De acuerdo con la normativa de protección de datos aplicable, sus datos personales podrán tratarse siempre que:</p>
+                    <br>
+                    <ul class="listado_politica">
+                        <li>Nos ha dado su consentimiento a los efectos del tratamiento. Por supuesto podrá retirar su consentimiento en cualquier momento.</li>
+                        <li>Por requerimiento legal.</li>
+                        <li>Por exisitr un interés legítimo que no se vea menoscabado por sus derechos de privacidad, como por ejemplo el envío de información comercial bien 
+                            por suscripción a nuestra newsletter o por su condición de cliente.</li>
+                        <li>Por se necesaria para la prestación de alguno de nuestros servicios mediante relación contractual entre usted y nosotros.</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">6. COMUNICACIÓN DE DATOS PERSINALES</h2>
+                    <p class="contenido_politica">Los datos pueden ser comunicados a empresas relacionadas con <b class="contenido_remarcado">BOOK&ROOM</b> para la prestación de los diversos 
+                        servicios en calidad de Encargados del Tratamiento. La empresa no realizará ninguna cesión, salvo por obligación legal.</p>
+                </div>
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">7. TUS DERECHOS</h2>
+                    <p class="contenido_politica">En relación con la recogida y tratamiento de sus datos personales, puede ponerse en contacto con nosotros en cualquier momento para:</p>
+                    <br>
+                    <ul class="listado_politica">
+                        <li>Acceder a sus datos personales y a cualquier otra información indicada en el Artículo 15.1 del RGPD.</li>
+                        <li>Rectificar sus datos personales que sean inexactos o estén incompletos de acuerdo con el Artículo 16 del RGPD.</li>
+                        <li>Suprimir sus datos personales de acuerdo con el Artículo 17 del RGPD.</li>
+                        <li>Limitar el tratamiento de sus datos personales de acuerdo con el Artículo 18 del RGPD.</li>
+                        <li>Solicitar la portabilidad de sus datos de acuerdo con el Artículo 20 del RGPD.</li>
+                        <li>Oponerse al tratamiento de sus datos personales de acuerdo con el artículo 21 del RGPD.</li>
+                    </ul>
+                    <br>
+                    <p class="contenido_politica">Si ha otorgado su consentimiento para alguna finalidad concreta, tiene derecho a retirar el consentimiento otorgado en cualquier momento, 
+                        sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada rrhh.</p>
+                    <br>
+                    <p class="contenido_politica">Puede ejercer estos derechos enviando comunicación, motivada y acreditada, a contacto@bookandroom.com</p>
+                    <br>
+                    <p class="contenido_politica">También tiene derecho a presentar una reclamación ante la Autoridad de control competente (<a href="https://www.aepd.es/es">wwww.aepd.es</a>) 
+                        si considera que el tratamiento no se ajusta a la normativa vigente.</p>
+                </div>
+                <br>
+                <div class="politica">
+                    <h2 class="titulo_politica">8. INFORMACIÓN LEGAL</h2>
+                    <p class="contenido_politica">Los requisitos de esta Política complementan, y no reemplazan, cualquier otro requisito existente bajo la ley de protección de datos aplicable, 
+                        que será la que prevalezca en cualquier caso.</p>
+                    <br>
+                    <p class="contenido_politica">Esta Política está sujeta a revisiones periódicas y la empresa puede modificarla en cualquier momento. Cuando esto ocurra, le avisaremos de 
+                        cualquier cambio y le pediremos que vuelva a leer la versión más reciente de nuestra Política y que confirme su aceptación.</p>
+                </div>
+                <br>
+            </div>
+            <br>
+        </article>
+
+        <footer>
+            <br>
+            <p class="title_footer">BOOK&ROOM</p>
+        
+            <div class="bloques_footer_container">
+                <div class="bloque_footer">
+                    <br>
+                    <hr class="hr_bloque">
+                    <a class="acceso_footer" href="./inquilinos">Sobre Nosotros</a>
+                    <a class="acceso_footer" href="./aviso_legal">Aviso Legal</a>
+                    <a class="acceso_footer" href="./privacidad">Políticas de Privacidad</a>
+                    <a class="acceso_footer" href="./cookies">Políticas de Cookies</a>
+                    <div class="redes_footer">
+                        <a class="redes fab fa-instagram" href="https://www.instagram.com/bookandroomsp" target="_BLANCK"></a>
+                        <a class="redes fab fa-linkedin" href="https://www.linkedin.com/company/bookandroom" target="_BLANCK"></a>
+                    </div>
+                </div>
+            
+                <div class="bloque_footer">
+                    <br>
+                    <hr class="hr_bloque">
+                    <div class="horario">
+                        <h4 class="titulos_footer">Atención al cliente</h4>
+                        <p class="texto_footer">De lunes a viernes de 9:00 a 14:00 y de 16:00 a 19:00</p>
+                    </div>
+                    <div class="ubicaciones">
+                        <div class="ubicacion_container">
+                            <h4 class="titulos_footer">Castellón:</h4>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-phone"></i>
+                                <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 031 008</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-envelope"></i>
+                                <a class="acceso_contact" href="mailto:bookandroomcs@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomcs@gmail.com</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                <a class="acceso_contact" href="https://wa.me/624031008" target="_blank">Contacta por Whatsapp</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="ubicacion_container">
+                            <h4 class="titulos_footer">Valencia:</h4>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-phone"></i>
+                                <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 600 063</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fas fa-envelope"></i>
+                                <a class="acceso_contact" href="mailto:bookandroomvlc@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomvlc@gmail.com</a>
+                            </div>
+                            <div class="contact_element">
+                                <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                                <a class="acceso_contact" href="https://wa.me/624600063" target="_blank">Contacta por Whatsapp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr class="hr_footer">
+            <br>
+            <p class="propiedad fas fa-copyright">2022 Book&Room</p>
+        </footer>
+
+    </body>
+</html>
