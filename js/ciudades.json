@@ -1,0 +1,38 @@
+[
+    {
+        "id":"cs",
+        "name":"Castellon",
+        "imagen":"./img/cities/cs.webp"
+
+    },
+    {
+        "id":"vl",
+        "name":"Valencia",
+        "imagen":"./img/cities/vl.webp"
+
+    },
+    {
+        "id":"zr",
+        "name":"Zaragoza",
+        "imagen":"./img/cities/zr.webp"
+
+    },
+    {
+        "id":"mr",
+        "name":"Murcia",
+        "imagen":"./img/cities/mr.webp"
+
+    },
+    {
+        "id":"al",
+        "name":"Alicante/Elche",
+        "imagen":"./img/cities/al.webp"
+
+    },
+    {
+        "id":"tr",
+        "name":"Tarragona/Reus",
+        "imagen":"./img/cities/tr.webp"
+
+    }
+]

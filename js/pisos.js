@@ -38,4 +38,27 @@ function procesarDatos(data,value){
         
 }
 
+function pintarCiudades(){
+    fetch('./js/ciudades.json')
+        .then(response=>response.json())
+        .then(data=>{
+            mostrarCiudades(data);
+        })
+        .catch(error=>{
+            console.error('Error al cargar el archivo JSON:', error);
+        });
+}
+
+function mostrarCiudades(data){
+    for(let datos of data){
+            let nuevoContenido=`
+                <div class="ciudad">
+                    <img class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')">
+                    <h3 class="name">${datos.name}</h3>
+                </div>
+            `
+            document.getElementsByClassName('ciudades_container').innerHTML+=nuevoContenido;
+    }
+}
+
 
