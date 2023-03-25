@@ -1,5 +1,6 @@
 [
     {
+        "id":"vl_01",
         "ubicacion":"vl",
         "name":"la Plata I",
         "imagen":"./img/pisos/vlc/1. Plata 99/7.Comedor2.jpg",
@@ -15,21 +16,103 @@
         "precio_max":"375"
     },
     {
+        "id":"vl_02",
         "ubicacion":"vl",
-        "name":"la Plata II",
-        "imagen":"./img/pisos/vlc/1. Plata 99/7.Comedor2.jpg",
-        "enlace":"./La_Plata",
+        "name":"Campoamor 20",
+        "imagen":"",
+        "enlace":"./vl_02",
         "caracteristicas":{
-            "1":"6 habitaciones",
+            "1":"4 habitaciones",
             "2":"2 baños",
-            "3":"Internet",
-            "4":"Televisión",
-            "5":"Ascensor"
+            "3":"",
+            "4":"",
+            "5":""
         },
-        "precio_min":"325",
-        "precio_max":"375"
+        "precio_min":"",
+        "precio_max":""
     },
     {
+        "id":"vl_03",
+        "ubicacion":"vl",
+        "name":"Av Maria Ros (Burjassot)",
+        "imagen":"",
+        "enlace":"./vl_03",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"Televisión",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"340",
+        "precio_max":"450"
+    },
+    {
+        "id":"vl_04",
+        "ubicacion":"vl",
+        "name":"Francisco Martínez",
+        "imagen":"",
+        "enlace":"./vl_04",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"1 baño",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
+        "id":"vl_05",
+        "ubicacion":"vl",
+        "name":"Mariano de Cavia",
+        "imagen":"",
+        "enlace":"./vl_05",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"2 baños",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
+        "id":"vl_06",
+        "ubicacion":"vl",
+        "name":"Historiador Diago",
+        "imagen":"",
+        "enlace":"./vl_06",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"1 baño",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
+        "id":"vl_07",
+        "ubicacion":"vl",
+        "name":"Milagrosa",
+        "imagen":"",
+        "enlace":"./vl_07",
+        "caracteristicas":{
+            "1":"",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
+        "id":"cs_01",
         "ubicacion":"cs",
         "name":"Corte Inglés",
         "imagen":"./img/pisos/1. España 5/3.Comedor4.JPG",
@@ -45,6 +128,7 @@
         "precio_max":"375"
     },
     {
+        "id":"cs_02",
         "ubicacion":"cs",
         "name":"Corte Inglés",
         "imagen":"./img/pisos/2. España 7/4.Habitacion1.1.jpeg",
@@ -60,6 +144,7 @@
         "precio_max":"375"
     },
     {
+        "id":"cs_03",
         "ubicacion":"cs",
         "name":"Fadrell",
         "imagen":"./img/pisos/3. Asensi 6/9.Cocina.jpeg",
@@ -75,6 +160,7 @@
         "precio_max":"340"
     },
     {
+        "id":"cs_04",
         "ubicacion":"cs",
         "name":"Corte Inglés",
         "imagen":"./img/pisos/4. Union 3/3.Habitacion3.jpeg",
@@ -90,6 +176,7 @@
         "precio_max":"330"
     },
     {
+        "id":"cs_05",
         "ubicacion":"cs",
         "name":"Ribalta",
         "imagen":"./img/pisos/5. Ribalta 27/5.Cocina2.jpg",
@@ -105,6 +192,7 @@
         "precio_max":"320"
     },
     {
+        "id":"cs_06",
         "ubicacion":"cs",
         "name":"Donoso Cortés",
         "imagen":"./img/pisos/6. Vinatea 21/6.Cocina.jpeg",
@@ -120,6 +208,7 @@
         "precio_max":"315"
     },
     {
+        "id":"cs_07",
         "ubicacion":"cs",
         "name":"María Agustina",
         "imagen":"./img/pisos/7. Tarragona/7.Cocina1.jpg",
@@ -135,6 +224,7 @@
         "precio_max":"350"
     },
     {
+        "id":"cs_08",
         "ubicacion":"cs",
         "name":"Trinidad",
         "imagen":"./img/pisos/8. Trinidad/1.Habitación1.1.jpg",
@@ -150,6 +240,7 @@
         "precio_max":"350"
     },
     {
+        "id":"cs_09",
         "ubicacion":"cs",
         "name":"Ribalta",
         "imagen":"./img/pisos/9. Pérez Galdós/6.Baño1.1.jpg",
@@ -165,6 +256,7 @@
         "precio_max":"340"
     },
     {
+        "id":"cs_10",
         "ubicacion":"cs",
         "name":"Rey Don Jaime I",
         "imagen":"./img/pisos/10. Jaime 1/3.Habitacion3.1.JPG",
@@ -180,6 +272,7 @@
         "precio_max":"340"
     },
     {
+        "id":"cs_11",
         "ubicacion":"cs",
         "name":"Casalduch",
         "imagen":"./img/pisos/11. Casalduch 1/3.Habitacion3.1.jpg",
@@ -195,6 +288,7 @@
         "precio_max":"350"
     },
     {
+        "id":"cs_12",
         "ubicacion":"cs",
         "name":"Pintor Soler Blasco",
         "imagen":"./img/pisos/12. Pintor Soler Blasco 1/7.Cocina.jpeg",
@@ -210,6 +304,7 @@
         "precio_max":"360"
     },
     {
+        "id":"cs_13",
         "ubicacion":"cs",
         "name":"Felix Breva",
         "imagen":"./img/pisos/13. Félix breva/3.Cocina1.2.JPG",
@@ -225,6 +320,7 @@
         "precio_max":"340"
     },
     {
+        "id":"cs_14",
         "ubicacion":"cs",
         "name":"Pintor Soler Blasco",
         "imagen":"./img/pisos/14. Pintor Soler Blasco 2/2.Comedor1.2.JPG",
@@ -240,6 +336,7 @@
         "precio_max":"380"
     },
     {
+        "id":"cs_15",
         "ubicacion":"cs",
         "name":"Sagunto",
         "imagen":"./img/pisos/15. Sagunto 7/Comedor 1.2.jpg",
@@ -255,10 +352,75 @@
         "precio_max":"330"
     },
     {
-        "ubicacion":"",
-        "name":"",
+        "id":"cs_16",
+        "ubicacion":"cs",
+        "name":"Sequiol",
         "imagen":"",
-        "enlace":"",
+        "enlace":"./Sequiol",
+        "caracteristicas":{
+            "1":"3 habitaciones",
+            "2":"1 baño",
+            "3":"Televisión",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"320",
+        "precio_max":"380"
+    },
+    {
+        "id":"cs_17",
+        "ubicacion":"cs",
+        "name":"Alcora 13",
+        "imagen":"",
+        "enlace":"./Alcora_13",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Televisión",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"250",
+        "precio_max":"340"
+    },
+    {
+        "id":"cs_18",
+        "ubicacion":"cs",
+        "name":"Maestro Ripolles",
+        "imagen":"",
+        "enlace":"./Maestro_Ripolles",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"280",
+        "precio_max":"340"
+    },
+    {
+        "id":"cs_19",
+        "ubicacion":"cs",
+        "name":"UJI J.Mulet",
+        "imagen":"",
+        "enlace":"./JMulet",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"1 baño",
+            "3":"Cerca de la universidad",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"270",
+        "precio_max":"340"
+    },
+    {
+        "id":"cs_20",
+        "ubicacion":"cs",
+        "name":"San José",
+        "imagen":"",
+        "enlace":"./San_Jose",
         "caracteristicas":{
             "1":"",
             "2":"",
@@ -270,6 +432,39 @@
         "precio_max":""
     },
     {
+        "id":"cs_21",
+        "ubicacion":"cs",
+        "name":"Gran Vía",
+        "imagen":"",
+        "enlace":"./Gran_Via",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"280",
+        "precio_max":"350"
+    },
+    {
+        "id":"cs_22",
+        "ubicacion":"cs",
+        "name":"Paseo Morella",
+        "imagen":"",
+        "enlace":"./cs_22",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
+        "id":"",
         "ubicacion":"",
         "name":"",
         "imagen":"",

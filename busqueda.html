@@ -70,6 +70,22 @@
                         <img class="img_seleccion" src="./img/pics/valencia.jpg" alt="valencia.jpg" onclick="seleccion('vl'),pintarPisos('vl')">
                         <h3 class="name">Valencia</h3>
                     </div>
+                    <div class="ciudad">
+                        <img class="img_seleccion" src="./img/pics/valencia.jpg" alt="zaragoza.jpg" onclick="seleccion('Zr'),pintarPisos('Zr')">
+                        <h3 class="name">Zaragoza</h3>
+                    </div>
+                    <div class="ciudad">
+                        <img class="img_seleccion" src="./img/pics/valencia.jpg" alt="murcia.jpg" onclick="seleccion('mr'),pintarPisos('mr')">
+                        <h3 class="name">Murcia</h3>
+                    </div>
+                    <div class="ciudad">
+                        <img class="img_seleccion" src="./img/pics/valencia.jpg" alt="alicante.jpg" onclick="seleccion('al'),pintarPisos('al')">
+                        <h3 class="name">Alicante/Elche</h3>
+                    </div>
+                    <div class="ciudad">
+                        <img class="img_seleccion" src="./img/pics/valencia.jpg" alt="tarragona.jpg" onclick="seleccion('tr'),pintarPisos('tr')">
+                        <h3 class="name">Tarragona/Reus</h3>
+                    </div>
                 </div>
             </div>
             <div class="listado" id="cs">
@@ -103,6 +119,74 @@
                 </div>
                 <br>
                 <a class="return" href="#primera_seleccion" onclick="inicio('vl')">Volver</a> 
+                
+            </div>
+            <div class="listado" id="zr">
+                <h2 class="titulos">Pisos en Zaragoza:</h2>
+                <div class="selector_container">
+                    <p class="option" id="List_op_zr" onclick="switchmode('zr','a')">Lista</p>
+                    <p class="option" id="Map_op_zr" onclick="switchmode('zr','b')">Mapa</p>
+                </div>
+                <div id="zr_map" class="map_pisos">
+                    <div class="map_container">
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Y8PGlRoeicYUHhqgxNz1xk5tR8-rL8g&ehbc=2E312F" width="1000" height="1000"></iframe>
+                    </div>
+                </div>
+                <div id="zr_list" class="pisos_container">
+                </div>
+                <br>
+                <a class="return" href="#primera_seleccion" onclick="inicio('zr')">Volver</a> 
+                
+            </div>
+            <div class="listado" id="mr">
+                <h2 class="titulos">Pisos en Murcia:</h2>
+                <div class="selector_container">
+                    <p class="option" id="List_op_mr" onclick="switchmode('mr','a')">Lista</p>
+                    <p class="option" id="Map_op_mr" onclick="switchmode('mr','b')">Mapa</p>
+                </div>
+                <div id="mr_map" class="map_pisos">
+                    <div class="map_container">
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Y8PGlRoeicYUHhqgxNz1xk5tR8-rL8g&ehbc=2E312F" width="1000" height="1000"></iframe>
+                    </div>
+                </div>
+                <div id="mr_list" class="pisos_container">
+                </div>
+                <br>
+                <a class="return" href="#primera_seleccion" onclick="inicio('mr')">Volver</a> 
+                
+            </div>
+            <div class="listado" id="al">
+                <h2 class="titulos">Pisos en Alicante/Elche:</h2>
+                <div class="selector_container">
+                    <p class="option" id="List_op_al" onclick="switchmode('al','a')">Lista</p>
+                    <p class="option" id="Map_op_al" onclick="switchmode('al','b')">Mapa</p>
+                </div>
+                <div id="al_map" class="map_pisos">
+                    <div class="map_container">
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Y8PGlRoeicYUHhqgxNz1xk5tR8-rL8g&ehbc=2E312F" width="1000" height="1000"></iframe>
+                    </div>
+                </div>
+                <div id="al_list" class="pisos_container">
+                </div>
+                <br>
+                <a class="return" href="#primera_seleccion" onclick="inicio('al')">Volver</a> 
+                
+            </div>
+            <div class="listado" id="tr">
+                <h2 class="titulos">Pisos en Tarragona/Reus:</h2>
+                <div class="selector_container">
+                    <p class="option" id="List_op_tr" onclick="switchmode('tr','a')">Lista</p>
+                    <p class="option" id="Map_op_tr" onclick="switchmode('tr','b')">Mapa</p>
+                </div>
+                <div id="tr_map" class="map_pisos">
+                    <div class="map_container">
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Y8PGlRoeicYUHhqgxNz1xk5tR8-rL8g&ehbc=2E312F" width="1000" height="1000"></iframe>
+                    </div>
+                </div>
+                <div id="tr_list" class="pisos_container">
+                </div>
+                <br>
+                <a class="return" href="#primera_seleccion" onclick="inicio('tr')">Volver</a> 
                 
             </div>
             <script>

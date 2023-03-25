@@ -76,11 +76,7 @@
     text-shadow: 2px 2px 4px #e08e73;
 }
 
-#cs{
-    display:none;
-}
-
-#vl{
+#cs,#vl,#zr,#mr,#al,#tr{
     display:none;
 }
 
@@ -126,12 +122,7 @@
     cursor: pointer;
 }
 
-#List_op_cs{
-    background: #dfc6be;
-    font-weight: bold;
-}
-
-#List_op_vl{
+#List_op_cs,#List_op_vl,#List_op_zr,#List_op_mr,#List_op_al,#List_op_tr{
     background: #dfc6be;
     font-weight: bold;
 }
@@ -150,20 +141,12 @@
     background: #dfc6be;
 }
 
-#cs_list{
+#cs_list, #vl_list, #zr_list, #mr_list, #al_list, #tr_list{
     display: flex;
 }
 
-#cs_map{
+#cs_map, #vl_map, #zr_map, #mr_map, #al_map, #tr_map{
     display: none;
-}
-
-#vl_list{
-    display:flex;
-}
-
-#vl_map{
-    display:none;
 }
 
 .map_pisos{
