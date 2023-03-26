@@ -59,7 +59,7 @@ function mostrarCiudades(data){
                     <h3 class="name">${datos.name}</h3>
                 </div>
             `
-            document.getElementsByClassName('ciudades_container').innerHTML+=nuevoContenido;
+            document.getElementsByClassName("ciudades_container").innerHTML+=nuevoContenido;
     }
 }
 
