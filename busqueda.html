@@ -16,7 +16,7 @@
         <script src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
         <script src="./js/pisos.js"></script>
     </head>
-    <body>
+    <body onload="pintarCiudades()">
         <header class="cabecera">
 
             <a href="javascript:void(0)" class="acceso__boton fas fa-bars" id="barritas" onclick="active()"></a>
@@ -57,7 +57,7 @@
             </div>
         </header>
 
-        <article onload="pintarCiudades()">
+        <article>
             <div id="primera_seleccion">
                 <br>
                 <h2 class="titulos">Selecciona la ciudad:</h2>
