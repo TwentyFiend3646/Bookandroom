@@ -39,6 +39,7 @@ function procesarDatos(data,value){
 }
 
 function pintarCiudades(){
+    console.log("Pintamos toda la casa");
     fetch('./js/ciudades.json')
         .then(response=>response.json())
         .then(data=>{
@@ -50,6 +51,7 @@ function pintarCiudades(){
 }
 
 function mostrarCiudades(data){
+    console.log(data);
     for(let datos of data){
             let nuevoContenido=`
                 <div class="ciudad">
