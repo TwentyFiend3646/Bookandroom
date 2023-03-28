@@ -42,8 +42,7 @@ function pintarCiudades(){
     fetch('./js/ciudades.json')
         .then(response=>response.json())
         .then(data=>{
-            mostrarCiudades(data);
-            pintarListados(data);
+            mostrarCiudades(data),pintarListados(data); 
         })
         .catch(error=>{
             console.error('Error al cargar el archivo JSON:', error);
@@ -62,7 +61,7 @@ function mostrarCiudades(data){
     }
 }
 
-function pintarListados(){ 
+function pintarListados(data){ 
     for(let datos of data){
             let nuevoContenido=`
                 <div class="listado" id="${datos.id}">
