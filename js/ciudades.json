@@ -2,37 +2,43 @@
     {
         "id":"cs",
         "name":"Castellon",
-        "imagen":"./img/cities/cs.webp"
+        "imagen":"./img/cities/cs.webp",
+        "mapa":"https://www.google.com/maps/d/embed?mid=1Iu_5um2OpvqGHCc3Q_cmKVcVkFFoibDE&hl=ca&ehbc=2E312F"
 
     },
     {
         "id":"vl",
         "name":"Valencia",
-        "imagen":"./img/cities/vl.webp"
+        "imagen":"./img/cities/vl.webp",
+        "mapa":"https://www.google.com/maps/d/u/0/embed?mid=1Y8PGlRoeicYUHhqgxNz1xk5tR8-rL8g&ehbc=2E312F"
 
     },
     {
         "id":"zr",
         "name":"Zaragoza",
-        "imagen":"./img/cities/zr.webp"
+        "imagen":"./img/cities/zr.webp",
+        "mapa":""
 
     },
     {
         "id":"mr",
         "name":"Murcia",
-        "imagen":"./img/cities/mr.webp"
+        "imagen":"./img/cities/mr.webp",
+        "mapa":""
 
     },
     {
         "id":"al",
         "name":"Alicante/Elche",
-        "imagen":"./img/cities/al.webp"
+        "imagen":"./img/cities/al.webp",
+        "mapa":""
 
     },
     {
         "id":"tr",
         "name":"Tarragona/Reus",
-        "imagen":"./img/cities/tr.webp"
+        "imagen":"./img/cities/tr.webp",
+        "mapa":""
 
     }
 ]

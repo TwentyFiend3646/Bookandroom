@@ -13,7 +13,7 @@ function pintarPisos(value){//Pintar todos los pisos de la lista
 
 function procesarDatos(data,value){
     for(let datos of data){
-        if(datos.ubicacion===value){
+        if(datos.id_ciudad===value){
             let nuevoContenido=`
             <div class="piso">
                 <h3 class="name">Piso en zona ${datos.name}</h3>
@@ -39,11 +39,11 @@ function procesarDatos(data,value){
 }
 
 function pintarCiudades(){
-    console.log("Pintamos toda la casa");
     fetch('./js/ciudades.json')
         .then(response=>response.json())
         .then(data=>{
             mostrarCiudades(data);
+            pintarListados(data);
         })
         .catch(error=>{
             console.error('Error al cargar el archivo JSON:', error);
@@ -51,7 +51,6 @@ function pintarCiudades(){
 }
 
 function mostrarCiudades(data){
-    console.log(data);
     for(let datos of data){
             let nuevoContenido=`
                 <div class="ciudad">
@@ -63,4 +62,26 @@ function mostrarCiudades(data){
     }
 }
 
-
+function pintarListados(){ 
+    for(let datos of data){
+            let nuevoContenido=`
+                <div class="listado" id="${datos.id}">
+                    <h2 class="titulos">Pisos en ${datos.name}:</h2>
+                    <div class="selector_container">
+                        <p class="option" id="List_op_${datos.id}" onclick="switchmode('${datos.id}','a')">Lista</p>
+                        <p class="option" id="Map_op_${datos.id}" onclick="switchmode('${datos.id}','b')">Mapa</p>
+                    </div>
+                    <div id="${datos.id}_map" class="map_pisos">
+                        <div class="map_container">
+                            <iframe src="${datos.mapa}" width="1000" height="1000"></iframe>
+                        </div>
+                    </div>
+                    <div id="${datos.id}_list" class="pisos_container">   
+                    </div>
+                    <br>
+                    <a class="return" href="#primera_seleccion" onclick="inicio('${datos.id}')">Volver</a>
+                </div>
+            `
+            document.getElementById("listaCiudades").innerHTML+=nuevoContenido;
+    }
+}

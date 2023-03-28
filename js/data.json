@@ -1,7 +1,7 @@
 [
     {
         "id":"vl_01",
-        "ubicacion":"vl",
+        "id_ciudad":"vl",
         "name":"la Plata I",
         "imagen":"./img/pisos/vlc/1. Plata 99/7.Comedor2.jpg",
         "enlace":"./La_Plata",
@@ -17,7 +17,7 @@
     },
     {
         "id":"vl_02",
-        "ubicacion":"vl",
+        "id_ciudad":"vl",
         "name":"Campoamor 20",
         "imagen":"",
         "enlace":"./vl_02",
@@ -33,7 +33,7 @@
     },
     {
         "id":"vl_03",
-        "ubicacion":"vl",
+        "id_ciudad":"vl",
         "name":"Av Maria Ros (Burjassot)",
         "imagen":"",
         "enlace":"./vl_03",
@@ -49,7 +49,7 @@
     },
     {
         "id":"vl_04",
-        "ubicacion":"vl",
+        "id_ciudad":"vl",
         "name":"Francisco Martínez",
         "imagen":"",
         "enlace":"./vl_04",
@@ -65,7 +65,7 @@
     },
     {
         "id":"vl_05",
-        "ubicacion":"vl",
+        "id_ciudad":"vl",
         "name":"Mariano de Cavia",
         "imagen":"",
         "enlace":"./vl_05",
@@ -81,7 +81,7 @@
     },
     {
         "id":"vl_06",
-        "ubicacion":"vl",
+        "id_ciudad":"vl",
         "name":"Historiador Diago",
         "imagen":"",
         "enlace":"./vl_06",
@@ -97,7 +97,7 @@
     },
     {
         "id":"vl_07",
-        "ubicacion":"vl",
+        "id_ciudad":"vl",
         "name":"Milagrosa",
         "imagen":"",
         "enlace":"./vl_07",
@@ -113,7 +113,7 @@
     },
     {
         "id":"cs_01",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Corte Inglés",
         "imagen":"./img/pisos/1. España 5/3.Comedor4.JPG",
         "enlace":"./España1",
@@ -129,7 +129,7 @@
     },
     {
         "id":"cs_02",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Corte Inglés",
         "imagen":"./img/pisos/2. España 7/4.Habitacion1.1.jpeg",
         "enlace":"./España2",
@@ -145,7 +145,7 @@
     },
     {
         "id":"cs_03",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Fadrell",
         "imagen":"./img/pisos/3. Asensi 6/9.Cocina.jpeg",
         "enlace":"./Asensi",
@@ -161,7 +161,7 @@
     },
     {
         "id":"cs_04",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Corte Inglés",
         "imagen":"./img/pisos/4. Union 3/3.Habitacion3.jpeg",
         "enlace":"./Union",
@@ -177,7 +177,7 @@
     },
     {
         "id":"cs_05",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Ribalta",
         "imagen":"./img/pisos/5. Ribalta 27/5.Cocina2.jpg",
         "enlace":"./Ribalta",
@@ -193,7 +193,7 @@
     },
     {
         "id":"cs_06",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Donoso Cortés",
         "imagen":"./img/pisos/6. Vinatea 21/6.Cocina.jpeg",
         "enlace":"./Vinatea",
@@ -209,7 +209,7 @@
     },
     {
         "id":"cs_07",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"María Agustina",
         "imagen":"./img/pisos/7. Tarragona/7.Cocina1.jpg",
         "enlace":"./Tarragona",
@@ -225,7 +225,7 @@
     },
     {
         "id":"cs_08",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Trinidad",
         "imagen":"./img/pisos/8. Trinidad/1.Habitación1.1.jpg",
         "enlace":"./Trinidad",
@@ -241,7 +241,7 @@
     },
     {
         "id":"cs_09",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Ribalta",
         "imagen":"./img/pisos/9. Pérez Galdós/6.Baño1.1.jpg",
         "enlace":"./Galdos",
@@ -257,7 +257,7 @@
     },
     {
         "id":"cs_10",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Rey Don Jaime I",
         "imagen":"./img/pisos/10. Jaime 1/3.Habitacion3.1.JPG",
         "enlace":"./Jaime_I",
@@ -273,7 +273,7 @@
     },
     {
         "id":"cs_11",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Casalduch",
         "imagen":"./img/pisos/11. Casalduch 1/3.Habitacion3.1.jpg",
         "enlace":"./Casalduch",
@@ -289,7 +289,7 @@
     },
     {
         "id":"cs_12",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
         "imagen":"./img/pisos/12. Pintor Soler Blasco 1/7.Cocina.jpeg",
         "enlace":"./Soler_Blasco",
@@ -305,7 +305,7 @@
     },
     {
         "id":"cs_13",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Felix Breva",
         "imagen":"./img/pisos/13. Félix breva/3.Cocina1.2.JPG",
         "enlace":"./Felix_Breva",
@@ -321,7 +321,7 @@
     },
     {
         "id":"cs_14",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
         "imagen":"./img/pisos/14. Pintor Soler Blasco 2/2.Comedor1.2.JPG",
         "enlace":"./Soler_Blasco2",
@@ -337,7 +337,7 @@
     },
     {
         "id":"cs_15",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Sagunto",
         "imagen":"./img/pisos/15. Sagunto 7/Comedor 1.2.jpg",
         "enlace":"./Sagunto_7",
@@ -353,7 +353,7 @@
     },
     {
         "id":"cs_16",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Sequiol",
         "imagen":"",
         "enlace":"./Sequiol",
@@ -369,7 +369,7 @@
     },
     {
         "id":"cs_17",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Alcora 13",
         "imagen":"",
         "enlace":"./Alcora_13",
@@ -385,7 +385,7 @@
     },
     {
         "id":"cs_18",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Maestro Ripolles",
         "imagen":"",
         "enlace":"./Maestro_Ripolles",
@@ -401,7 +401,7 @@
     },
     {
         "id":"cs_19",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"UJI J.Mulet",
         "imagen":"",
         "enlace":"./JMulet",
@@ -417,7 +417,7 @@
     },
     {
         "id":"cs_20",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"San José",
         "imagen":"",
         "enlace":"./San_Jose",
@@ -433,7 +433,7 @@
     },
     {
         "id":"cs_21",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Gran Vía",
         "imagen":"",
         "enlace":"./Gran_Via",
@@ -449,7 +449,7 @@
     },
     {
         "id":"cs_22",
-        "ubicacion":"cs",
+        "id_ciudad":"cs",
         "name":"Paseo Morella",
         "imagen":"",
         "enlace":"./cs_22",
@@ -465,7 +465,7 @@
     },
     {
         "id":"",
-        "ubicacion":"",
+        "id_ciudad":"",
         "name":"",
         "imagen":"",
         "enlace":"",
