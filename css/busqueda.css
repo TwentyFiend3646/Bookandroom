@@ -1,6 +1,10 @@
 
 /* ZONA ARTICLE */
 
+#upper{
+    padding-top: 60px;
+}
+
 #primera_seleccion{
     display:block;
     position: relative;
