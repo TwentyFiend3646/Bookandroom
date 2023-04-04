@@ -72,7 +72,7 @@ function pintarListados(data){
                     </div>
                     <div id="${datos.id}_map" class="map_pisos">
                         <div class="map_container">
-                            <iframe src="${datos.mapa}" width="1000" height="1000"></iframe>
+                            <iframe src="${datos.mapa}" width="800" height="auto"></iframe>
                         </div>
                     </div>
                     <div id="${datos.id}_list" class="pisos_container">   
