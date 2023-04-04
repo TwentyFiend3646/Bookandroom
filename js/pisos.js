@@ -53,8 +53,10 @@ function mostrarCiudades(data){
     for(let datos of data){
             let nuevoContenido=`
                 <div class="ciudad">
-                    <img class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" width="400px" onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')"><a src="#upper"></a>
-                    <h3 class="name">${datos.name}</h3>
+                    <a src="#upper">
+                        <img class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" width="400px" onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')">
+                        <h3 class="name">${datos.name}</h3>
+                    </a>
                 </div>
             `
             document.getElementById("bloque_ciudades").innerHTML+=nuevoContenido;
@@ -65,7 +67,7 @@ function pintarListados(data){
     for(let datos of data){
             let nuevoContenido=`
                 <div class="listado" id="${datos.id}">
-                    <h2 id="upper" class="titulos">Pisos en ${datos.name}:</h2>
+                    <h2 class="titulos">Pisos en ${datos.name}:</h2>
                     <div class="selector_container">
                         <p class="option" id="List_op_${datos.id}" onclick="switchmode('${datos.id}','a')">Lista</p>
                         <p class="option" id="Map_op_${datos.id}" onclick="switchmode('${datos.id}','b')">Mapa</p>
