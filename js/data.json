@@ -3,7 +3,7 @@
         "id":"vl_01",
         "id_ciudad":"vl",
         "name":"la Plata I",
-        "imagen":"./img/pisos/vlc/1. Plata 99/7.Comedor2.jpg",
+        "imagen":"./img/pisos/vlc/1. Plata 99/portada.webp",
         "enlace":"./La_Plata",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -115,7 +115,7 @@
         "id":"cs_01",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/1. España 5/3.Comedor4.JPG",
+        "imagen":"./img/pisos/1. España 5/portada.webp",
         "enlace":"./España1",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -131,7 +131,7 @@
         "id":"cs_02",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/2. España 7/4.Habitacion1.1.jpeg",
+        "imagen":"./img/pisos/2. España 7/portada.webp",
         "enlace":"./España2",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -147,7 +147,7 @@
         "id":"cs_03",
         "id_ciudad":"cs",
         "name":"Fadrell",
-        "imagen":"./img/pisos/3. Asensi 6/9.Cocina.jpeg",
+        "imagen":"./img/pisos/3. Asensi 6/portada.webp",
         "enlace":"./Asensi",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -163,7 +163,7 @@
         "id":"cs_04",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/4. Union 3/3.Habitacion3.jpeg",
+        "imagen":"./img/pisos/4. Union 3/portada.webp",
         "enlace":"./Union",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -179,7 +179,7 @@
         "id":"cs_05",
         "id_ciudad":"cs",
         "name":"Ribalta",
-        "imagen":"./img/pisos/5. Ribalta 27/5.Cocina2.jpg",
+        "imagen":"./img/pisos/5. Ribalta 27/portada.webp",
         "enlace":"./Ribalta",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -195,7 +195,7 @@
         "id":"cs_06",
         "id_ciudad":"cs",
         "name":"Donoso Cortés",
-        "imagen":"./img/pisos/6. Vinatea 21/6.Cocina.jpeg",
+        "imagen":"./img/pisos/6. Vinatea 21/portada.webp",
         "enlace":"./Vinatea",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -211,7 +211,7 @@
         "id":"cs_07",
         "id_ciudad":"cs",
         "name":"María Agustina",
-        "imagen":"./img/pisos/7. Tarragona/7.Cocina1.jpg",
+        "imagen":"./img/pisos/7. Tarragona/portada.webp",
         "enlace":"./Tarragona",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -227,7 +227,7 @@
         "id":"cs_08",
         "id_ciudad":"cs",
         "name":"Trinidad",
-        "imagen":"./img/pisos/8. Trinidad/1.Habitación1.1.jpg",
+        "imagen":"./img/pisos/8. Trinidad/portada.webp",
         "enlace":"./Trinidad",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -243,7 +243,7 @@
         "id":"cs_09",
         "id_ciudad":"cs",
         "name":"Ribalta",
-        "imagen":"./img/pisos/9. Pérez Galdós/6.Baño1.1.jpg",
+        "imagen":"./img/pisos/9. Pérez Galdós/portada.webp",
         "enlace":"./Galdos",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -259,7 +259,7 @@
         "id":"cs_10",
         "id_ciudad":"cs",
         "name":"Rey Don Jaime I",
-        "imagen":"./img/pisos/10. Jaime 1/3.Habitacion3.1.JPG",
+        "imagen":"./img/pisos/10. Jaime 1/portada.webp",
         "enlace":"./Jaime_I",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -275,7 +275,7 @@
         "id":"cs_11",
         "id_ciudad":"cs",
         "name":"Casalduch",
-        "imagen":"./img/pisos/11. Casalduch 1/3.Habitacion3.1.jpg",
+        "imagen":"./img/pisos/11. Casalduch 1/portada.webp",
         "enlace":"./Casalduch",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -291,7 +291,7 @@
         "id":"cs_12",
         "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
-        "imagen":"./img/pisos/12. Pintor Soler Blasco 1/7.Cocina.jpeg",
+        "imagen":"./img/pisos/12. Pintor Soler Blasco 1/portada.webp",
         "enlace":"./Soler_Blasco",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -307,7 +307,7 @@
         "id":"cs_13",
         "id_ciudad":"cs",
         "name":"Felix Breva",
-        "imagen":"./img/pisos/13. Félix breva/3.Cocina1.2.JPG",
+        "imagen":"./img/pisos/13. Félix breva/portada.webp",
         "enlace":"./Felix_Breva",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -323,7 +323,7 @@
         "id":"cs_14",
         "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
-        "imagen":"./img/pisos/14. Pintor Soler Blasco 2/2.Comedor1.2.JPG",
+        "imagen":"./img/pisos/14. Pintor Soler Blasco 2/portada.webp",
         "enlace":"./Soler_Blasco2",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -339,7 +339,7 @@
         "id":"cs_15",
         "id_ciudad":"cs",
         "name":"Sagunto",
-        "imagen":"./img/pisos/15. Sagunto 7/Comedor 1.2.jpg",
+        "imagen":"./img/pisos/15. Sagunto 7/portada.webp",
         "enlace":"./Sagunto_7",
         "caracteristicas":{
             "1":"4 habitaciones",
