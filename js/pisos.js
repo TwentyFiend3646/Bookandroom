@@ -53,7 +53,7 @@ function mostrarCiudades(data){
     for(let datos of data){
             let nuevoContenido=`
                 <div class="ciudad">
-                    <a src="#upper"><img class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" width="400px" onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')"><a>
+                    <img class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" width="400px" onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')"><a src="#upper"></a>
                     <h3 class="name">${datos.name}</h3>
                 </div>
             `
