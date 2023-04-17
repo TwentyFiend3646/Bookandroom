@@ -464,6 +464,22 @@
         "precio_max":""
     },
     {
+        "id":"cs_23",
+        "id_ciudad":"cs",
+        "name":"Manuel Bellido",
+        "imagen":"",
+        "enlace":"./cs_23",
+        "caracteristicas":{
+            "1":"3 habitaciones",
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
         "id":"",
         "id_ciudad":"",
         "name":"",
