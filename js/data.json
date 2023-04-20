@@ -82,7 +82,7 @@
     {
         "id":"vl_06",
         "id_ciudad":"vl",
-        "name":"Historiador Diago",
+        "name":"Maestro Alberto Luz",
         "imagen":"",
         "enlace":"./vl_06",
         "caracteristicas":{
@@ -94,22 +94,6 @@
         },
         "precio_min":"280",
         "precio_max":"450"
-    },
-    {
-        "id":"vl_07",
-        "id_ciudad":"vl",
-        "name":"Milagrosa",
-        "imagen":"",
-        "enlace":"./vl_07",
-        "caracteristicas":{
-            "1":"",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
-        },
-        "precio_min":"",
-        "precio_max":""
     },
     {
         "id":"cs_01",
@@ -422,14 +406,14 @@
         "imagen":"",
         "enlace":"./San_Jose",
         "caracteristicas":{
-            "1":"",
+            "1":"5 habitaciones",
             "2":"",
             "3":"",
             "4":"",
             "5":""
         },
-        "precio_min":"",
-        "precio_max":""
+        "precio_min":"280",
+        "precio_max":"350"
     },
     {
         "id":"cs_21",
@@ -460,8 +444,24 @@
             "4":"",
             "5":""
         },
-        "precio_min":"",
-        "precio_max":""
+        "precio_min":"250",
+        "precio_max":"325"
+    },
+    {
+        "id":"cs_23",
+        "id_ciudad":"cs",
+        "name":"Manuel Bellido",
+        "imagen":"",
+        "enlace":"./cs_23",
+        "caracteristicas":{
+            "1":"3 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"280",
+        "precio_max":"340"
     },
     {
         "id":"mr_01",
