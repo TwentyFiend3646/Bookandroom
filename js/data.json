@@ -13,7 +13,7 @@
             "5":"Ascensor"
         },
         "precio_min":"325",
-        "precio_max":"375"
+        "precio_max":"360"
     },
     {
         "id":"vl_02",
@@ -24,12 +24,12 @@
         "caracteristicas":{
             "1":"4 habitaciones",
             "2":"2 baños",
-            "3":"",
-            "4":"",
-            "5":""
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Televisión"
         },
-        "precio_min":"",
-        "precio_max":""
+        "precio_min":"340",
+        "precio_max":"430"
     },
     {
         "id":"vl_03",
@@ -41,8 +41,8 @@
             "1":"4 habitaciones",
             "2":"2 baños",
             "3":"Televisión",
-            "4":"",
-            "5":""
+            "4":"340",
+            "5":"430"
         },
         "precio_min":"340",
         "precio_max":"450"
@@ -54,14 +54,14 @@
         "imagen":"",
         "enlace":"./vl_04",
         "caracteristicas":{
-            "1":"5 habitaciones",
+            "1":"4 habitaciones",
             "2":"1 baño",
             "3":"",
             "4":"",
             "5":""
         },
-        "precio_min":"",
-        "precio_max":""
+        "precio_min":"350",
+        "precio_max":"430"
     },
     {
         "id":"vl_05",
@@ -76,8 +76,8 @@
             "4":"",
             "5":""
         },
-        "precio_min":"",
-        "precio_max":""
+        "precio_min":"350",
+        "precio_max":"450"
     },
     {
         "id":"vl_06",
@@ -92,8 +92,8 @@
             "4":"",
             "5":""
         },
-        "precio_min":"",
-        "precio_max":""
+        "precio_min":"280",
+        "precio_max":"450"
     },
     {
         "id":"vl_07",
@@ -456,6 +456,166 @@
         "caracteristicas":{
             "1":"5 habitaciones",
             "2":"2 baños",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"",
+        "precio_max":""
+    },
+    {
+        "id":"mr_01",
+        "id_ciudad":"mr",
+        "name":"San José",
+        "imagen":"",
+        "enlace":"./mr_01",
+        "caracteristicas":{
+            "1":"3 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"280",
+        "precio_max":"340"
+    },
+    {
+        "id":"zr_01",
+        "id_ciudad":"zr",
+        "name":"Av Fernando Católico",
+        "imagen":"",
+        "enlace":"./zr_01",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"300",
+        "precio_max":"420"
+    },
+    {
+        "id":"al_01",
+        "id_ciudad":"al",
+        "name":"San Vicente",
+        "imagen":"",
+        "enlace":"./al_01",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"195",
+        "precio_max":"440"
+    },
+    {
+        "id":"al_02",
+        "id_ciudad":"al",
+        "name":"Sidi-ifni",
+        "imagen":"",
+        "enlace":"./al_02",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"280",
+        "precio_max":"350"
+    },
+    {
+        "id":"tr_01",
+        "id_ciudad":"tr",
+        "name":"Antonio de Bofarull",
+        "imagen":"",
+        "enlace":"./tr_01",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"280",
+        "precio_max":"400"
+    },
+    {
+        "id":"tr_02",
+        "id_ciudad":"tr",
+        "name":"Av Roma",
+        "imagen":"",
+        "enlace":"./tr_02",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"350",
+        "precio_max":"450"
+    },
+    {
+        "id":"tr_03",
+        "id_ciudad":"tr",
+        "name":"Av Catalunya",
+        "imagen":"",
+        "enlace":"./tr_03",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"300",
+        "precio_max":"425"
+    },
+    {
+        "id":"tr_04",
+        "id_ciudad":"tr",
+        "name":"Francesc de Paula",
+        "imagen":"",
+        "enlace":"./tr_04",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"300",
+        "precio_max":"425"
+    },
+    {
+        "id":"bc_01",
+        "id_ciudad":"bc",
+        "name":"Trinquet",
+        "imagen":"",
+        "enlace":"./bc_01",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"550",
+        "precio_max":"750"
+    },
+    {
+        "id":"",
+        "id_ciudad":"",
+        "name":"",
+        "imagen":"",
+        "enlace":"",
+        "caracteristicas":{
+            "1":"",
+            "2":"",
             "3":"",
             "4":"",
             "5":""
