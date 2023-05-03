@@ -11,7 +11,7 @@ function pintarPisos(value){//Pintar todos los pisos de la lista
         });
 }
 
-function procesarDatos(data,value){
+function procesarDatos(data,value){//funcion para listar cada ciudad con las características básicas del archivo pisos.json
     for(let datos of data){
         if(datos.id_ciudad===value){
             let nuevoContenido=`
@@ -38,7 +38,7 @@ function procesarDatos(data,value){
         
 }
 
-function pintarCiudades(){
+function pintarCiudades(){//carga el json de las ciudades y las imprime
     fetch('./js/ciudades.json')
         .then(response=>response.json())
         .then(data=>{
@@ -49,7 +49,7 @@ function pintarCiudades(){
         });
 }
 
-function mostrarCiudades(data){
+function mostrarCiudades(data){//funcion para imprimir una ciudad de la json ciudades
     for(let datos of data){
             let nuevoContenido=`
                 <div class="ciudad">
@@ -63,7 +63,7 @@ function mostrarCiudades(data){
     }
 }
 
-function pintarListados(data){ 
+function pintarListados(data){ //funcion para imprimir la informacion de pisos y mapa de ciudades.json
     for(let datos of data){
             let nuevoContenido=`
                 <div class="listado" id="${datos.id}">
