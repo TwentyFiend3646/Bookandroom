@@ -177,6 +177,7 @@
                     document.getElementById("primera_seleccion").style.display="block";
                     document.getElementById(`${value}_list`).innerHTML="";
                     document.getElementById(value).style.display="none";
+                    switchmode(value,"a");
                 }
                 function switchmode(value,op){
                     if(op==='a'){
