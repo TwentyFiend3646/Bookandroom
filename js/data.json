@@ -3,7 +3,7 @@
         "id":"vl_01",
         "id_ciudad":"vl",
         "name":"la Plata I",
-        "imagen":"./img/pisos/vlc/1. Plata 99/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./La_Plata",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -19,7 +19,7 @@
         "id":"vl_02",
         "id_ciudad":"vl",
         "name":"Campoamor 20",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./vl_02",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -35,7 +35,7 @@
         "id":"vl_03",
         "id_ciudad":"vl",
         "name":"Av Maria Ros (Burjassot)",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./vl_03",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -51,7 +51,7 @@
         "id":"vl_04",
         "id_ciudad":"vl",
         "name":"Francisco Martínez",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./vl_04",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -67,7 +67,7 @@
         "id":"vl_05",
         "id_ciudad":"vl",
         "name":"Mariano de Cavia",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./vl_05",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -83,7 +83,7 @@
         "id":"vl_06",
         "id_ciudad":"vl",
         "name":"Maestro Alberto Luz",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./vl_06",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -99,7 +99,7 @@
         "id":"cs_01",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/1. España 5/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./España1",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -115,7 +115,7 @@
         "id":"cs_02",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/2. España 7/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./España2",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -131,7 +131,7 @@
         "id":"cs_03",
         "id_ciudad":"cs",
         "name":"Fadrell",
-        "imagen":"./img/pisos/3. Asensi 6/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Asensi",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -147,7 +147,7 @@
         "id":"cs_04",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/4. Union 3/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Union",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -163,7 +163,7 @@
         "id":"cs_05",
         "id_ciudad":"cs",
         "name":"Ribalta",
-        "imagen":"./img/pisos/5. Ribalta 27/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Ribalta",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -179,7 +179,7 @@
         "id":"cs_06",
         "id_ciudad":"cs",
         "name":"Donoso Cortés",
-        "imagen":"./img/pisos/6. Vinatea 21/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Vinatea",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -195,7 +195,7 @@
         "id":"cs_07",
         "id_ciudad":"cs",
         "name":"María Agustina",
-        "imagen":"./img/pisos/7. Tarragona/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Tarragona",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -211,7 +211,7 @@
         "id":"cs_08",
         "id_ciudad":"cs",
         "name":"Trinidad",
-        "imagen":"./img/pisos/8. Trinidad/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Trinidad",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -227,7 +227,7 @@
         "id":"cs_09",
         "id_ciudad":"cs",
         "name":"Ribalta",
-        "imagen":"./img/pisos/9. Pérez Galdós/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Galdos",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -243,7 +243,7 @@
         "id":"cs_10",
         "id_ciudad":"cs",
         "name":"Rey Don Jaime I",
-        "imagen":"./img/pisos/10. Jaime 1/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Jaime_I",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -259,7 +259,7 @@
         "id":"cs_11",
         "id_ciudad":"cs",
         "name":"Casalduch",
-        "imagen":"./img/pisos/11. Casalduch 1/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Casalduch",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -275,7 +275,7 @@
         "id":"cs_12",
         "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
-        "imagen":"./img/pisos/12. Pintor Soler Blasco 1/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Soler_Blasco",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -291,7 +291,7 @@
         "id":"cs_13",
         "id_ciudad":"cs",
         "name":"Felix Breva",
-        "imagen":"./img/pisos/13. Félix breva/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Felix_Breva",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -307,7 +307,7 @@
         "id":"cs_14",
         "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
-        "imagen":"./img/pisos/14. Pintor Soler Blasco 2/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Soler_Blasco2",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -323,7 +323,7 @@
         "id":"cs_15",
         "id_ciudad":"cs",
         "name":"Sagunto",
-        "imagen":"./img/pisos/15. Sagunto 7/portada.webp",
+        "imagen":"./img/pisos/",
         "enlace":"./Sagunto_7",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -339,7 +339,7 @@
         "id":"cs_16",
         "id_ciudad":"cs",
         "name":"Sequiol",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./Sequiol",
         "caracteristicas":{
             "1":"3 habitaciones",
@@ -355,7 +355,7 @@
         "id":"cs_17",
         "id_ciudad":"cs",
         "name":"Alcora 13",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./Alcora_13",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -371,7 +371,7 @@
         "id":"cs_18",
         "id_ciudad":"cs",
         "name":"Maestro Ripolles",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./Maestro_Ripolles",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -387,7 +387,7 @@
         "id":"cs_19",
         "id_ciudad":"cs",
         "name":"UJI J.Mulet",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./JMulet",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -403,7 +403,7 @@
         "id":"cs_20",
         "id_ciudad":"cs",
         "name":"San José",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./San_Jose",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -419,7 +419,7 @@
         "id":"cs_21",
         "id_ciudad":"cs",
         "name":"Gran Vía",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./Gran_Via",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -435,7 +435,7 @@
         "id":"cs_22",
         "id_ciudad":"cs",
         "name":"Paseo Morella",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./cs_22",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -451,7 +451,7 @@
         "id":"cs_23",
         "id_ciudad":"cs",
         "name":"Manuel Bellido",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./cs_23",
         "caracteristicas":{
             "1":"3 habitaciones",
@@ -467,7 +467,7 @@
         "id":"mr_01",
         "id_ciudad":"mr",
         "name":"San José",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./mr_01",
         "caracteristicas":{
             "1":"3 habitaciones",
@@ -483,7 +483,7 @@
         "id":"zr_01",
         "id_ciudad":"zr",
         "name":"Av Fernando Católico",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./zr_01",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -499,7 +499,7 @@
         "id":"al_01",
         "id_ciudad":"al",
         "name":"San Vicente",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./al_01",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -515,7 +515,7 @@
         "id":"al_02",
         "id_ciudad":"al",
         "name":"Sidi-ifni",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./al_02",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -531,7 +531,7 @@
         "id":"tr_01",
         "id_ciudad":"tr",
         "name":"Antonio de Bofarull",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./tr_01",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -547,7 +547,7 @@
         "id":"tr_02",
         "id_ciudad":"tr",
         "name":"Av Roma",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./tr_02",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -563,7 +563,7 @@
         "id":"tr_03",
         "id_ciudad":"tr",
         "name":"Av Catalunya",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./tr_03",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -579,7 +579,7 @@
         "id":"tr_04",
         "id_ciudad":"tr",
         "name":"Francesc de Paula",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./tr_04",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -595,7 +595,7 @@
         "id":"bc_01",
         "id_ciudad":"bc",
         "name":"Trinquet",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"./bc_01",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -611,7 +611,7 @@
         "id":"",
         "id_ciudad":"",
         "name":"",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"",
         "caracteristicas":{
             "1":"",
@@ -627,7 +627,7 @@
         "id":"",
         "id_ciudad":"",
         "name":"",
-        "imagen":"",
+        "imagen":"./img/pisos/",
         "enlace":"",
         "caracteristicas":{
             "1":"",
