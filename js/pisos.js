@@ -53,10 +53,10 @@ function mostrarCiudades(data){//funcion para imprimir una ciudad de la json ciu
     for(let datos of data){
             let nuevoContenido=`
                 <div class="ciudad">
-                    <a href="#upper">
-                        <img class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" width="400px" onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')">
+                    // <a href="#upper">
+                        <img href="#upper" class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" width="400px" onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')">
                         <h3 class="name">${datos.name}</h3>
-                    </a>
+                    // </a>
                 </div>
             `
             document.getElementById("bloque_ciudades").innerHTML+=nuevoContenido;
