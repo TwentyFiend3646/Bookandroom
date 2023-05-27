@@ -18,7 +18,7 @@
     <script src="../js/pisos.js"></script>
     <script src="../js/datos_info.js"></script>
 </head>
-<body id="Element02">
+<body id="Element02"  onload="pintarInfo(``)">
     
     <header class="cabecera">
 
@@ -59,7 +59,7 @@
         </div>
     </header>
 
-    <article id="contenido" onload="pintarInfo(``)">
+    <article id="contenido">
         <div class="formulario_contacto" id="Seleccion01">
     
             <div id="bloque_formulario">

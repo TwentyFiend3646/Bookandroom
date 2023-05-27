@@ -35,7 +35,7 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
                 </div>
             `
             nuevoContenido+=añadir_fotos;
-            document.getElementById(`contenido`).innerHTML+=nuevoContenido;
+            document.getElementById("contenido").innerHTML+=nuevoContenido;
             nuevoContenido=`
             <div id="titulo_habitaciones">Habitaciones:</div>
             </div>
@@ -63,7 +63,7 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
             nuevoContenido+=`
             </div>
             `
-            document.getElementById(`contenido`).innerHTML+=nuevoContenido;     
+            document.getElementById("contenido").innerHTML+=nuevoContenido;     
         }
     }
         
