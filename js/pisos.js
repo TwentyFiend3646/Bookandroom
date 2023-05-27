@@ -22,7 +22,7 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
             let añadir_fotos="";
             for(let i=1;i<=datos.numero_fotos;i++){
                 añadir_fotos+=`
-                    <div class="apartados fade">
+                    <div class="apartados fade" id="imagen${i}">
                         <div class="numbertext">${i} / ${datos.numero_fotos}</div>
                         <img  class="imagen_portada" src="../img/pisos/${datos.id_ciudad}/${datos.id}/${i}.webp" alt="${i}.webp">
                     </div>
