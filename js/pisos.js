@@ -2,7 +2,7 @@
 
 function pintarInfo(value){//Pintar la información de un piso
     alert("cowawunga");
-    fetch('./js/data.json')
+    fetch('../js/data.json')
         .then(response=>response.json())
         .then(data=>{
             alert("lets go "+value);
