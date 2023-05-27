@@ -68,15 +68,6 @@ function pintarListados(data){ //funcion para imprimir la informacion de pisos y
             let nuevoContenido=`
                 <div class="listado" id="${datos.id}">
                     <h2 class="titulos">Pisos en ${datos.name}:</h2>
-                    <div class="selector_container">
-                        <p class="option" id="List_op_${datos.id}" onclick="switchmode('${datos.id}','a')">Lista</p>
-                        <p class="option" id="Map_op_${datos.id}" onclick="switchmode('${datos.id}','b')">Mapa</p>
-                    </div>
-                    <div id="${datos.id}_map" class="map_pisos">
-                        <div class="map_container">
-                            <iframe src="${datos.mapa}" width="800px" height="800px"></iframe>
-                        </div>
-                    </div>
                     <div id="${datos.id}_list" class="pisos_container">   
                     </div>
                     <br>
@@ -86,3 +77,24 @@ function pintarListados(data){ //funcion para imprimir la informacion de pisos y
             document.getElementById("listaCiudades").innerHTML+=nuevoContenido;
     }
 }
+
+//LO QUE DEBE CONTENER REALMENTE EL APARTADO -> function pintarListados(data)    
+
+/* 
+<div class="listado" id="${datos.id}">
+    <h2 class="titulos">Pisos en ${datos.name}:</h2>
+    <div class="selector_container">
+        <p class="option" id="List_op_${datos.id}" onclick="switchmode('${datos.id}','a')">Lista</p>
+        <p class="option" id="Map_op_${datos.id}" onclick="switchmode('${datos.id}','b')">Mapa</p>
+    </div>
+    <div id="${datos.id}_map" class="map_pisos">
+        <div class="map_container">
+            <iframe src="${datos.mapa}" width="800px" height="800px"></iframe>
+        </div>
+    </div>
+    <div id="${datos.id}_list" class="pisos_container">   
+    </div>
+    <br>
+    <a class="return" href="#primera_seleccion" onclick="inicio('${datos.id}')">Volver</a>
+</div>
+*/
