@@ -18,7 +18,7 @@
     <script src="../js/pisos.js"></script>
     <script src="../js/datos_info.js"></script>
 </head>
-<body id="Element02" onload="pintarInfo(`cs_01`)">
+<body id="Element02" onload="pintarInfo(``)">
     
     <header class="cabecera">
 

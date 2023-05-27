@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Book&Room/es/piso</title>
+    <link rel="shortcut icon" href="../img/icons/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="keywords" content="room,book,alquilar,habitacion,erasmus,reserva">
+    <meta name="author" content="TwentyFiend">
+    <meta name="robots" content="index">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../css/piso.css">
+    <link rel="stylesheet" href="../css/commonstyle.css">
+    <script src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/pisos.js"></script>
+    <script src="../js/datos_info.js"></script>
+</head>
+<body id="Element02" onload="pintarInfo(`vl_06`)">
+    
+    <header class="cabecera">
+
+        <a href="javascript:void(0)" class="acceso__boton fas fa-bars" id="barritas" onclick="active()"></a>
+        <ul id="acceso__rapido" style="opacity:0">
+            <li class="acceso__list fas fa-magnifying-glass-location"><a class="lista_rapida" href="../busqueda">  ASISTENTE DE BÚSQUEDA</a></li>
+            <li class="acceso__list fas fa-circle-question"><a class="lista_rapida" href="../inquilinos">  SOBRE NOSOTROS</a></li>
+            <li class="acceso__list fas fa-address-book"><a class="lista_rapida" href="../propietarios">  CONTACTO PROPIETARIOS</a></li>
+        </ul>
+    
+        <script>
+            function active(){
+                let element=document.getElementById("acceso__rapido");
+                let valor= element.style.opacity;
+                switch (valor){
+                    case '0':
+                        document.getElementById("acceso__rapido").style.opacity="1";
+                        document.getElementById("acceso__rapido").style.left="-4px";
+                        document.getElementById("barritas").style.backgroundColor="#b48372"
+                        break;
+                    case '1':
+                        document.getElementById("acceso__rapido").style.opacity="0";
+                        document.getElementById("acceso__rapido").style.left="-800px";
+                        document.getElementById("barritas").style.backgroundColor=""
+                        break;
+                }
+            }
+        </script>
+    
+        <div class="nombre">
+            <a href="../"><h1 class="title">BOOK&ROOM</h1></a>
+            <p class="idioma">es</p>
+        </div>
+    
+        <div class="header_icons">
+            <a href="C:/Users/TWENTY/Desktop/JAVASCRIPT/MAIN_MENU.html"><img class="language" src="../img/icons/english_flag.ico"></img></a>
+            <img class="logo" src="../img/pics/logo.png" alt="logo_principal"></img></a>
+        </div>
+    </header>
+
+    <article id="contenido">
+        <div class="formulario_contacto" id="Seleccion01">
+    
+            <div id="bloque_formulario">
+                <div class="form_popup" id="Formulario">
+                    <form action="../correo.php" method="post" class="form_container">
+                        <h3 id="Reserva">Reserva</h3>
+                        <div class="form_element">
+                            <label for="subject">Habitación</label>
+                            <br>
+                            <input type="text" readonly class="relleno" id="phabitacion" name="Habitacion" style="height: 32px; resize: none;font-size: 20px;"></textarea>
+                        </div>
+                        <div class="form_element">                
+                            <label for="pnombre">Nombre</label>
+                            <br>
+                            <input type="text" class="relleno" id="pnombre" name="Nombre" placeholder="Tu nombre..." required>
+                        </div>
+
+                        <div class="form_element">
+                            <label for="papellido">Primer apellido</label>
+                            <br>
+                            <input type="text" class="relleno" id="papellido" name="Primer_apellido" placeholder="Primer apellido..." required>
+                        </div>
+
+                        <div class="form_element">
+                            <label for="sapellido">Segundo apellido</label>
+                            <br>
+                            <input type="text" class="relleno" id="sapellido" name="Segundo_apellido" placeholder="Segundo apellido...">
+                        </div>
+
+                        <div class="form_element">     
+                            <label for="pais">Pais</label>
+                            <select id="pais" name="pais">
+                                <option value="Italia">Italia</option>
+                                <option value="Francia">Francia</option>
+                                <option value="Alemania">Alemania</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="España">España</option>
+                                <option value="Grecia">Grecia</option>
+                                <option value="Reino_Unido">Reino Unido</option>
+                                <option selected disabled>Selecciona</option>
+                            </select>
+                        </div>
+
+                        <div class="form_element">                
+                            <label for="correo">Correo electrónico</label>
+                            <br>
+                            <input type="email" class="relleno" id="correo" name="Correo_electronico" placeholder="Tu correo..." required>
+                        </div>
+
+                        <div class="form_element">            
+                            <label for="tlfn">Telefono</label>
+                            <br>
+                            <input type="tel" class="relleno" id="tlfn" name="Telefono" placeholder="123-456-789" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+                        </div>
+
+                        <div class="form_element">            
+                            <label for="datemin">Incio de estancia</label>
+                            <br>
+                            <input type="date" class="relleno" id="datemin" name="datemin" required>
+                        </div>
+
+                        <div class="form_element">
+                            <label for="datemax">Fin de estancia</label>
+                            <br>
+                            <input type="date" class="relleno" id="datemax" name="datemax" required>
+                        </div>
+
+                        <br>
+
+                        <div class="form_buttons">
+                            <input type="submit" name="enviar" class="boton_formulario" value="Solicita tu reserva" onclick="comparafecha()">
+                            <input type="reset" class="boton_formulario" value="Reiniciar" style="display:none">
+                            <button type="button" class="boton_formulario" class="btn cancel" onclick="closeForm()">Close</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </article>
+
+    <footer>
+        <br>
+        <p class="title_footer">BOOK&ROOM</p>
+    
+        <div class="bloques_footer_container">
+            <div class="bloque_footer">
+                <br>
+                <hr class="hr_bloque">
+                <a class="acceso_footer" href="../inquilinos">Sobre Nosotros</a>
+                <a class="acceso_footer" href="../aviso_legal">Aviso Legal</a>
+                <a class="acceso_footer" href="../privacidad">Políticas de Privacidad</a>
+                <a class="acceso_footer" href="../cookies">Políticas de Cookies</a>
+                <div class="redes_footer">
+                    <a class="redes fab fa-instagram" href="https://www.instagram.com/bookandroomsp" target="_BLANCK"></a>
+                    <a class="redes fab fa-linkedin" href="https://www.linkedin.com/company/bookandroom" target="_BLANCK"></a>
+                </div>
+            </div>
+        
+            <div class="bloque_footer">
+                <br>
+                <hr class="hr_bloque">
+                <div class="horario">
+                    <h4 class="titulos_footer">Atención al cliente</h4>
+                    <p class="texto_footer">De lunes a viernes de 9:00 a 14:00 y de 16:00 a 19:00</p>
+                </div>
+                <div class="ubicaciones">
+                    <div class="ubicacion_container">
+                        <h4 class="titulos_footer">Castellón:</h4>
+                        <div class="contact_element">
+                            <i class="acceso_contact_icon fas fa-phone"></i>
+                            <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 031 008</a>
+                        </div>
+                        <div class="contact_element">
+                            <i class="acceso_contact_icon fas fa-envelope"></i>
+                            <a class="acceso_contact" href="mailto:bookandroomcs@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomcs@gmail.com</a>
+                        </div>
+                        <div class="contact_element">
+                            <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                            <a class="acceso_contact" href="https://wa.me/624031008" target="_blank">Contacta por Whatsapp</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="ubicacion_container">
+                        <h4 class="titulos_footer">Valencia:</h4>
+                        <div class="contact_element">
+                            <i class="acceso_contact_icon fas fa-phone"></i>
+                            <a class="acceso_contact" href="tel:+34624600063" target="_blank">624 600 063</a>
+                        </div>
+                        <div class="contact_element">
+                            <i class="acceso_contact_icon fas fa-envelope"></i>
+                            <a class="acceso_contact" href="mailto:bookandroomvlc@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomvlc@gmail.com</a>
+                        </div>
+                        <div class="contact_element">
+                            <i class="acceso_contact_icon fab fa-whatsapp"></i>
+                            <a class="acceso_contact" href="https://wa.me/624600063" target="_blank">Contacta por Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr class="hr_footer">
+        <br>
+        <p class="propiedad fas fa-copyright">2023 Book&Room</p>
+    </footer>
+</body>
+</html>
