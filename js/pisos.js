@@ -56,7 +56,7 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
                         <div class="tarifa_reserva_container">
                             <h3 class="tarifa">Precio mensual:<br><b class="price">${datos.precios[i]}€*</b></h3>
                             <a href="#Seleccion01"><button class="open_button" id="Form_display" onclick="abrirFormulario('${datos.id} room${i}')">ME INTERESA!</button></a>
-                            <p class=asterisco>El precio de la habitación puede variar a lo largo de la estancia. Puedes consultar mas info contactando con nosotros.
+                            <p class=asterisco style="font-style:italic;font-size:80%>El precio de la habitación puede variar a lo largo de la estancia. Puedes consultar mas info contactando con nosotros.
                         </div>
                     </div>
 
