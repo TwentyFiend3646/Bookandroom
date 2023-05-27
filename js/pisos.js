@@ -27,7 +27,7 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
                 añadir_fotos+=`
                     <div class="apartados fade">
                         <div class="numbertext">${i} / ${datos.numero_fotos}</div>
-                        <img  class="imagen_portada" src="./img/pisos/${datos.id_ciudad}/${datos.id}/${i}.webp" alt="${i}.webp">
+                        <img  class="imagen_portada" src="../img/pisos/${datos.id_ciudad}/${datos.id}/${i}.webp" alt="${i}.webp">
                     </div>
 
                 `
@@ -51,10 +51,10 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
                     <div class="habitacion">
                         <div class="img_container">
                             <h4 class="name_room">Habitación ${i}</h4>
-                            <img class="img_habitacion" src="./img/pisos/${datos.id_ciudad}/${datos.id}/habitaciones)${i}.webp" alt="room${i}.jpg">
+                            <img class="img_habitacion" src="../img/pisos/${datos.id_ciudad}/${datos.id}/habitaciones)${i}.webp" alt="room${i}">
                         </div>
                         <div class="tarifa_reserva_container">
-                            <h3 class="tarifa">Precio mensual:<br><b class="price">${datos.precios.i}€*</b></h3>
+                            <h3 class="tarifa">Precio mensual:<br><b class="price">${datos.precios[i]}€*</b></h3>
                             <a href="#Seleccion01"><button class="open_button" id="Form_display" onclick="abrirFormulario('${datos.id} room${i}')">ME INTERESA!</button></a>
                             <p class=asterisco>El precio de la habitación puede variar a lo largo de la estancia. Puedes consultar mas info contactando con nosotros.
                         </div>
