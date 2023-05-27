@@ -17,56 +17,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../js/pisos.js"></script>
     <script src="../js/datos_info.js"></script>
-    <script>
-        // APARTADO PARA DESLIZAR IMAGENES
-        var slideIndex= 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n){
-            showSlides(slideIndex += n);
-        }
-        function currentSlide(n){
-            showSlides(slideIndex= n);
-        }
-        function showSlides(n){
-            var i;
-            var slides= document.getElementsByClassName("apartados");
-            var puntos= document.getElementsByClassName("punto");
-            if(n>slides.length){slideIndex = 1}
-            if(n<1){slideIndex = slides.length}
-            for(i=0;i<slides.length;i++){
-                slides[i].style.display ="none";
-            }
-            for(i=0;i<puntos.length;i++){
-                puntos[i].className=puntos[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display ="block";
-            puntos[slideIndex-1].className += " active";
-        }
-
-        // APARTADO PARA ACCEDER AL FORMULARIO
-        function abrirFormulario(room){
-            document.getElementById("phabitacion").value=room;
-            document.getElementById("Formulario").style.display="flex";
-            document.getElementById("Form_display").style.display="none";
-            document.getElementById("bloque_formulario").style.display="block";
-            document.getElementById("Element02").style.overflow="hidden";
-        }
-        function closeForm(){
-            document.getElementById("Formulario").style.display="none";
-            document.getElementById("Form_display").style.display="inline-block";
-            document.getElementById("bloque_formulario").style.display="none";
-            document.getElementById("Element02").style.overflow="auto";
-        }
-        function comparafecha(){
-            let fechainicial = document.getElementById("datemin").value;
-            let fechafinal = document.getElementById("datemax").value;
-            if(fechafinal.year < fechainicial.year || fechafinal.month < fechainicial.month || fechafinal.day < fechainicial.day){
-                alert("La fecha final debe ser mayor a la fecha inicial");
-                document.getElementById("datemin").reset();
-            }
-        }
-    </script>
 </head>
 <body id="Element02" onload="pintarInfo(`cs_01`)">
     
