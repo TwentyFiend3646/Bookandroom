@@ -131,6 +131,10 @@
     box-shadow: 0px 2px 10px  rgb(105, 105, 105);
 }
 
+.apartados{
+    display: none;
+}
+
 .habitaciones_container{
     display:grid;
     width: 90%;
