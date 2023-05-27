@@ -16,7 +16,7 @@ function pintarInfo(value){//Pintar la información de un piso
 function procesarDatos(data,value){//funcion para rellenar el contenido de la pagina correspondiente al piso
     for(let datos of data){
         if(datos.id===value){
-            alert("te pillé")
+            alert("te cojo puto")
             let nuevoContenido=`
             <div id="titulo_piso">Zona ${datos.name}</div>
 
@@ -57,6 +57,7 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
                             <a href="#Seleccion01"><button class="open_button" id="Form_display" onclick="abrirFormulario('${datos.id} room${i}')">ME INTERESA!</button></a>
                             <p class=asterisco style="font-style:italic;font-size:80%>*El precio de la habitación puede variar a lo largo de la estancia. Puedes consultar mas info contactando con nosotros.
                         </div>
+                    </div>
                     </div>
                     `
             }
