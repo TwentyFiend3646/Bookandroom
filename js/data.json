@@ -4,7 +4,7 @@
         "id_ciudad":"vl",
         "name":"la Plata I",
         "imagen":"./img/pisos/",
-        "enlace":"./La_Plata",
+        "enlace":"./vl_01",
         "caracteristicas":{
             "1":"6 habitaciones",
             "2":"2 baños",
