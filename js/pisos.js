@@ -21,22 +21,21 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
             <div id="titulo_piso">Zona ${datos.name}</div>
 
             <div id="bloque_fotos">
-            `
-            let añadir_fotos;
+            `;
+            let añadir_fotos="";
             for(let i=1;i<=datos.numero_fotos;i++){
                 añadir_fotos+=`
                     <div class="apartados fade">
                         <div class="numbertext">${i} / ${datos.numero_fotos}</div>
                         <img  class="imagen_portada" src="../img/pisos/${datos.id_ciudad}/${datos.id}/${i}.webp" alt="${i}.webp">
                     </div>
-
-                `
+                    `
             }
             añadir_fotos+=`
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-            `
+            `;
             nuevoContenido+=añadir_fotos;
             document.getElementById("contenido").innerHTML+=nuevoContenido;
             nuevoContenido=`
@@ -44,8 +43,8 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
             </div>
 
             <div class="habitaciones_container">
-            `
-            let habitaciones;
+            `;
+            let habitaciones="";
             for(let i=1;i<=datos.numero_habitaciones;i++){
                 habitaciones+=`
                     <div class="habitacion">
@@ -59,13 +58,12 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
                             <p class=asterisco style="font-style:italic;font-size:80%>*El precio de la habitación puede variar a lo largo de la estancia. Puedes consultar mas info contactando con nosotros.
                         </div>
                     </div>
-
-                `
+                    `
             }
-            nuevoContenido+=habitaciones
+            nuevoContenido+=habitaciones;
             nuevoContenido+=`
             </div>
-            `
+            `;
             document.getElementById("contenido").innerHTML+=nuevoContenido;     
         }
     }
