@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="./css/busqueda.css">
         <link rel="stylesheet" href="./css/commonstyle.css">
         <script src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
-        <script src="./js/pisos.js"></script>
+        <script src="./js/busqueda_scripts.js"></script>
+        <script src="./js/datos_info.js"></script>
     </head>
     <body id="upper" onload="pintarCiudades()">
         <header class="cabecera">
@@ -163,7 +164,7 @@
             <br>
             <hr class="hr_footer">
             <br>
-            <p class="propiedad fas fa-copyright">2022 Book&Room</p>
+            <p class="propiedad fas fa-copyright">2023 Book&Room</p>
         </footer>
     </body>
 </html>

@@ -1,6 +1,6 @@
 
 
-function pintarPisos(value){//Pintar todos los pisos de la lista
+function pintarInfo(value){//Pintar la información de un piso
     fetch('./js/data.json')
         .then(response=>response.json())
         .then(data=>{
@@ -11,90 +11,60 @@ function pintarPisos(value){//Pintar todos los pisos de la lista
         });
 }
 
-function procesarDatos(data,value){//funcion para listar cada ciudad con las características básicas del archivo pisos.json
+function procesarDatos(data,value){//funcion para rellenar el contenido de la pagina correspondiente al piso
     for(let datos of data){
-        if(datos.id_ciudad===value){
+        if(datos.id===value){
             let nuevoContenido=`
-            <div class="piso">
-                <h3 class="name">Piso en zona ${datos.name}</h3>
-                <div class="img_container">
-                    <img class="img_piso" src="${datos.imagen}"alt="imagen.jpg">
-                    <a class="acceso_piso" href="${datos.enlace}" target="_blank">Más info</a>
+            <div id="titulo_piso">Zona ${datos.name}</div>
+
+            <div id="bloque_fotos">
+            `
+            let añadir_fotos;
+            for(let i=1;i<=datos.numero_fotos;i++){
+                añadir_fotos+=`
+                    <div class="apartados fade">
+                        <div class="numbertext">${i} / ${datos.numero_fotos}</div>
+                        <img  class="imagen_portada" src="./img/pisos/${datos.id_ciudad}/${datos.id}/${i}.webp" alt="${i}.webp">
+                    </div>
+
+                `
+            }
+            añadir_fotos+=`
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-    
-                <ul class="descripcion">
-                    <li class="list_element">${datos.caracteristicas[1]}</li>
-                    <li class="list_element">${datos.caracteristicas[2]}</li>
-                    <li class="list_element">${datos.caracteristicas[3]}</li>
-                    <li class="list_element">${datos.caracteristicas[4]}</li>
-                    <li class="list_element">${datos.caracteristicas[5]}</li>
-                </ul>
-                <h4 class="price">Precio habitaciones: desde ${datos.precio_min}€ hasta ${datos.precio_max}€</h4>
+            `
+            nuevoContenido+=añadir_fotos;
+            document.getElementById(`contenido`).innerHTML+=nuevoContenido;
+            nuevoContenido=`
+            <div id="titulo_habitaciones">Habitaciones:</div>
+            </div>
+
+            <div class="habitaciones_container">
+            `
+            let habitaciones;
+            for(let i=1;i<=datos.numero_habitaciones;i++){
+                habitaciones+=`
+                    <div class="habitacion">
+                        <div class="img_container">
+                            <h4 class="name_room">Habitación ${i}</h4>
+                            <img class="img_habitacion" src="./img/pisos/${datos.id_ciudad}/${datos.id}/habitaciones)${i}.webp" alt="room${i}.jpg">
+                        </div>
+                        <div class="tarifa_reserva_container">
+                            <h3 class="tarifa">Precio mensual:<br><b class="price">${datos.precios.i}€*</b></h3>
+                            <a href="#Seleccion01"><button class="open_button" id="Form_display" onclick="abrirFormulario('${datos.id} room${i}')">ME INTERESA!</button></a>
+                            <p class=asterisco>El precio de la habitación puede variar a lo largo de la estancia. Puedes consultar mas info contactando con nosotros.
+                        </div>
+                    </div>
+
+                `
+            }
+            nuevoContenido+=habitaciones
+            nuevoContenido+=`
             </div>
             `
-            document.getElementById(`${value}_list`).innerHTML+=nuevoContenido;
+            document.getElementById(`contenido`).innerHTML+=nuevoContenido;     
         }
     }
         
 }
-
-function pintarCiudades(){//carga el json de las ciudades y las imprime
-    fetch('./js/ciudades.json')
-        .then(response=>response.json())
-        .then(data=>{
-            mostrarCiudades(data),pintarListados(data); 
-        })
-        .catch(error=>{
-            console.error('Error al cargar el archivo JSON:', error);
-        });
-}
-
-function mostrarCiudades(data){//funcion para imprimir una ciudad de la json ciudades
-    for(let datos of data){
-            let nuevoContenido=`
-                <div class="ciudad">
-                    <a href="#upper"  onclick="seleccion('${datos.id}'),pintarPisos('${datos.id}')">
-                        <img href="#upper" class="img_seleccion" src="${datos.imagen}" alt="${datos.name}.jpg" width="400px">
-                        <h3 class="name">${datos.name}</h3>
-                    </a>
-                </div>
-            `
-            document.getElementById("bloque_ciudades").innerHTML+=nuevoContenido;
-    }
-}
-
-function pintarListados(data){ //funcion para imprimir la informacion de pisos y mapa de ciudades.json
-    for(let datos of data){
-            let nuevoContenido=`
-                <div class="listado" id="${datos.id}">
-                    <h2 class="titulos">Pisos en ${datos.name}:</h2>
-                    <div id="${datos.id}_list" class="pisos_container">   
-                    </div>
-                    <br>
-                    <a class="return" href="#primera_seleccion" onclick="inicio('${datos.id}')">Volver</a>
-                </div>
-            `
-            document.getElementById("listaCiudades").innerHTML+=nuevoContenido;
-    }
-}
-
-//LO QUE DEBE CONTENER REALMENTE EL APARTADO -> function pintarListados(data)    
-
-/* 
-<div class="listado" id="${datos.id}">
-    <h2 class="titulos">Pisos en ${datos.name}:</h2>
-    <div class="selector_container">
-        <p class="option" id="List_op_${datos.id}" onclick="switchmode('${datos.id}','a')">Lista</p>
-        <p class="option" id="Map_op_${datos.id}" onclick="switchmode('${datos.id}','b')">Mapa</p>
-    </div>
-    <div id="${datos.id}_map" class="map_pisos">
-        <div class="map_container">
-            <iframe src="${datos.mapa}" width="800px" height="800px"></iframe>
-        </div>
-    </div>
-    <div id="${datos.id}_list" class="pisos_container">   
-    </div>
-    <br>
-    <a class="return" href="#primera_seleccion" onclick="inicio('${datos.id}')">Volver</a>
-</div>
-*/
