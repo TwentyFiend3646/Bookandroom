@@ -3,7 +3,7 @@
         "id":"vl_01",
         "id_ciudad":"vl",
         "name":"la Plata I",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/vl/vl_01/portada.webp",
         "enlace":"./vl_01",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -19,7 +19,7 @@
         "id":"vl_02",
         "id_ciudad":"vl",
         "name":"Campoamor 20",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/vl/vl_02/portada.webp",
         "enlace":"./vl_02",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -35,30 +35,30 @@
         "id":"vl_03",
         "id_ciudad":"vl",
         "name":"Av Maria Ros (Burjassot)",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/vl/vl_03/portada.webp",
         "enlace":"./vl_03",
         "caracteristicas":{
             "1":"4 habitaciones",
             "2":"2 baños",
             "3":"Televisión",
-            "4":"",
-            "5":""
+            "4":"Internet",
+            "5":"Ascensor"
         },
         "precio_min":"340",
-        "precio_max":"450"
+        "precio_max":"430"
     },
     {
         "id":"vl_04",
         "id_ciudad":"vl",
         "name":"Francisco Martínez",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/vl/vl_04/portada.webp",
         "enlace":"./vl_04",
         "caracteristicas":{
-            "1":"4 habitaciones",
+            "1":"5 habitaciones",
             "2":"1 baño",
-            "3":"",
-            "4":"",
-            "5":""
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Climatizado"
         },
         "precio_min":"350",
         "precio_max":"430"
@@ -67,14 +67,14 @@
         "id":"vl_05",
         "id_ciudad":"vl",
         "name":"Mariano de Cavia",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/vl/vl_05/portada.webp",
         "enlace":"./vl_05",
         "caracteristicas":{
             "1":"4 habitaciones",
             "2":"2 baños",
-            "3":"",
-            "4":"",
-            "5":""
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Balcon"
         },
         "precio_min":"350",
         "precio_max":"450"
@@ -83,23 +83,39 @@
         "id":"vl_06",
         "id_ciudad":"vl",
         "name":"Maestro Alberto Luz",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/vl/vl_06/portada.webp",
         "enlace":"./vl_06",
         "caracteristicas":{
             "1":"4 habitaciones",
             "2":"1 baño",
-            "3":"",
-            "4":"",
-            "5":""
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Patio"
         },
         "precio_min":"280",
         "precio_max":"450"
     },
     {
+        "id":"vl_07",
+        "id_ciudad":"vl",
+        "name":"Maestro Clavé",
+        "imagen":"./img/pisos/vl_07/portada.webp",
+        "enlace":"./vl_07",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Terraza exterior",
+            "5":"Ascensor"
+        },
+        "precio_min":"330",
+        "precio_max":"500"
+    },
+    {
         "id":"cs_01",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_01/portada.webp",
         "enlace":"./España1",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -115,7 +131,7 @@
         "id":"cs_02",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_02/portada.webp",
         "enlace":"./España2",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -131,7 +147,7 @@
         "id":"cs_03",
         "id_ciudad":"cs",
         "name":"Fadrell",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_03/portada.webp",
         "enlace":"./Asensi",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -147,7 +163,7 @@
         "id":"cs_04",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_04/portada.webp",
         "enlace":"./Union",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -163,7 +179,7 @@
         "id":"cs_05",
         "id_ciudad":"cs",
         "name":"Ribalta",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_05/portada.webp",
         "enlace":"./Ribalta",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -179,7 +195,7 @@
         "id":"cs_06",
         "id_ciudad":"cs",
         "name":"Donoso Cortés",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_06/portada.webp",
         "enlace":"./Vinatea",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -195,7 +211,7 @@
         "id":"cs_07",
         "id_ciudad":"cs",
         "name":"María Agustina",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_07/portada.webp",
         "enlace":"./Tarragona",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -211,7 +227,7 @@
         "id":"cs_08",
         "id_ciudad":"cs",
         "name":"Trinidad",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_08/portada.webp",
         "enlace":"./Trinidad",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -227,7 +243,7 @@
         "id":"cs_09",
         "id_ciudad":"cs",
         "name":"Ribalta",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_09/portada.webp",
         "enlace":"./Galdos",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -243,7 +259,7 @@
         "id":"cs_10",
         "id_ciudad":"cs",
         "name":"Rey Don Jaime I",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_10/portada.webp",
         "enlace":"./Jaime_I",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -259,7 +275,7 @@
         "id":"cs_11",
         "id_ciudad":"cs",
         "name":"Casalduch",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_11/portada.webp",
         "enlace":"./Casalduch",
         "caracteristicas":{
             "1":"6 habitaciones",
@@ -275,7 +291,7 @@
         "id":"cs_12",
         "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_12/portada.webp",
         "enlace":"./Soler_Blasco",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -291,7 +307,7 @@
         "id":"cs_13",
         "id_ciudad":"cs",
         "name":"Felix Breva",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_13/portada.webp",
         "enlace":"./Felix_Breva",
         "caracteristicas":{
             "1":"5 habitaciones",
@@ -307,7 +323,7 @@
         "id":"cs_14",
         "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_14/portada.webp",
         "enlace":"./Soler_Blasco2",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -323,7 +339,7 @@
         "id":"cs_15",
         "id_ciudad":"cs",
         "name":"Sagunto",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_15/portada.webp",
         "enlace":"./Sagunto_7",
         "caracteristicas":{
             "1":"4 habitaciones",
@@ -339,14 +355,14 @@
         "id":"cs_16",
         "id_ciudad":"cs",
         "name":"Sequiol",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_16/portada.webp",
         "enlace":"./Sequiol",
         "caracteristicas":{
             "1":"3 habitaciones",
             "2":"1 baño",
             "3":"Televisión",
-            "4":"",
-            "5":""
+            "4":"Ascensor",
+            "5":"Internet"
         },
         "precio_min":"320",
         "precio_max":"380"
@@ -355,14 +371,14 @@
         "id":"cs_17",
         "id_ciudad":"cs",
         "name":"Alcora 13",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_17/portada.webp",
         "enlace":"./Alcora_13",
         "caracteristicas":{
             "1":"5 habitaciones",
             "2":"2 baños",
             "3":"Televisión",
-            "4":"",
-            "5":""
+            "4":"Internet",
+            "5":"Ascensor"
         },
         "precio_min":"250",
         "precio_max":"340"
@@ -371,14 +387,14 @@
         "id":"cs_18",
         "id_ciudad":"cs",
         "name":"Maestro Ripolles",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_18/portada.webp",
         "enlace":"./Maestro_Ripolles",
         "caracteristicas":{
             "1":"5 habitaciones",
             "2":"2 baños",
-            "3":"",
-            "4":"",
-            "5":""
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"No acepta mascotas"
         },
         "precio_min":"280",
         "precio_max":"340"
@@ -387,14 +403,14 @@
         "id":"cs_19",
         "id_ciudad":"cs",
         "name":"UJI J.Mulet",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_19/portada.webp",
         "enlace":"./JMulet",
         "caracteristicas":{
             "1":"4 habitaciones",
             "2":"1 baño",
             "3":"Cerca de la universidad",
-            "4":"",
-            "5":""
+            "4":"Internet",
+            "5":"Ascensor"
         },
         "precio_min":"270",
         "precio_max":"340"
@@ -403,14 +419,14 @@
         "id":"cs_20",
         "id_ciudad":"cs",
         "name":"San José",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_20/portada.webp",
         "enlace":"./San_Jose",
         "caracteristicas":{
             "1":"5 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Climatizado"
         },
         "precio_min":"280",
         "precio_max":"350"
@@ -419,14 +435,14 @@
         "id":"cs_21",
         "id_ciudad":"cs",
         "name":"Gran Vía",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_21/portada.webp",
         "enlace":"./Gran_Via",
         "caracteristicas":{
             "1":"5 habitaciones",
             "2":"2 baños",
-            "3":"",
-            "4":"",
-            "5":""
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Balcon"
         },
         "precio_min":"280",
         "precio_max":"350"
@@ -435,46 +451,30 @@
         "id":"cs_22",
         "id_ciudad":"cs",
         "name":"Paseo Morella",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/cs/cs_22/portada.webp",
         "enlace":"./cs_22",
         "caracteristicas":{
             "1":"5 habitaciones",
             "2":"2 baños",
-            "3":"",
-            "4":"",
-            "5":""
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Patio"
         },
         "precio_min":"250",
         "precio_max":"325"
     },
     {
-        "id":"cs_23",
-        "id_ciudad":"cs",
-        "name":"Manuel Bellido",
-        "imagen":"./img/pisos/",
-        "enlace":"./cs_23",
-        "caracteristicas":{
-            "1":"3 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
-        },
-        "precio_min":"280",
-        "precio_max":"340"
-    },
-    {
         "id":"mr_01",
         "id_ciudad":"mr",
         "name":"San José",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/mr/mr_01/portada.webp",
         "enlace":"./mr_01",
         "caracteristicas":{
             "1":"3 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Televisión"
         },
         "precio_min":"280",
         "precio_max":"340"
@@ -483,14 +483,14 @@
         "id":"zr_01",
         "id_ciudad":"zr",
         "name":"Av Fernando Católico",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/zr/zr_01/portada.webp",
         "enlace":"./zr_01",
         "caracteristicas":{
             "1":"5 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Balcon"
         },
         "precio_min":"300",
         "precio_max":"420"
@@ -499,14 +499,14 @@
         "id":"al_01",
         "id_ciudad":"al",
         "name":"San Vicente",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/al/al_01/portada.webp",
         "enlace":"./al_01",
         "caracteristicas":{
             "1":"5 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Balcon"
         },
         "precio_min":"195",
         "precio_max":"440"
@@ -515,14 +515,14 @@
         "id":"al_02",
         "id_ciudad":"al",
         "name":"Sidi-ifni",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/al/al_02/portada.webp",
         "enlace":"./al_02",
         "caracteristicas":{
             "1":"4 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Sin ascensor",
+            "5":"Balcon"
         },
         "precio_min":"280",
         "precio_max":"350"
@@ -530,15 +530,15 @@
     {
         "id":"tr_01",
         "id_ciudad":"tr",
-        "name":"Antonio de Bofarull",
-        "imagen":"./img/pisos/",
+        "name":"Antonio de Bofarull (Reus)",
+        "imagen":"./img/pisos/tr/tr_01/portada.webp",
         "enlace":"./tr_01",
         "caracteristicas":{
             "1":"4 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Balcon"
         },
         "precio_min":"280",
         "precio_max":"400"
@@ -547,14 +547,14 @@
         "id":"tr_02",
         "id_ciudad":"tr",
         "name":"Av Roma",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/tr/tr_02/portada.webp",
         "enlace":"./tr_02",
         "caracteristicas":{
             "1":"4 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Balcon"
         },
         "precio_min":"350",
         "precio_max":"450"
@@ -563,14 +563,14 @@
         "id":"tr_03",
         "id_ciudad":"tr",
         "name":"Av Catalunya",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/tr/tr_03/portada.webp",
         "enlace":"./tr_03",
         "caracteristicas":{
             "1":"5 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Acepta mascotas"
         },
         "precio_min":"300",
         "precio_max":"425"
@@ -578,15 +578,15 @@
     {
         "id":"tr_04",
         "id_ciudad":"tr",
-        "name":"Francesc de Paula",
-        "imagen":"./img/pisos/",
+        "name":"Francesc de Paula (Reus)",
+        "imagen":"./img/pisos/tr/tr_04/portada.webp",
         "enlace":"./tr_04",
         "caracteristicas":{
             "1":"4 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Acepta mascotas"
         },
         "precio_min":"300",
         "precio_max":"425"
@@ -595,14 +595,14 @@
         "id":"bc_01",
         "id_ciudad":"bc",
         "name":"Trinquet",
-        "imagen":"./img/pisos/",
+        "imagen":"./img/pisos/bc/bc_01/portada.webp",
         "enlace":"./bc_01",
         "caracteristicas":{
             "1":"5 habitaciones",
-            "2":"",
-            "3":"",
-            "4":"",
-            "5":""
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Patio"
         },
         "precio_min":"550",
         "precio_max":"750"
