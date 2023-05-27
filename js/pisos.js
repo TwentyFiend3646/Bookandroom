@@ -51,7 +51,7 @@ function procesarDatos(data,value){//funcion para rellenar el contenido de la pa
                     <div class="habitacion">
                         <div class="img_container">
                             <h4 class="name_room">Habitación ${i}</h4>
-                            <img class="img_habitacion" src="../img/pisos/${datos.id_ciudad}/${datos.id}/habitaciones)${i}.webp" alt="room${i}">
+                            <img class="img_habitacion" src="../img/pisos/${datos.id_ciudad}/${datos.id}/habitaciones/${i}.webp" alt="room${i}">
                         </div>
                         <div class="tarifa_reserva_container">
                             <h3 class="tarifa">Precio mensual:<br><b class="price">${datos.precios[i]}€*</b></h3>
