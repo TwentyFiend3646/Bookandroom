@@ -5,6 +5,7 @@ function pintarInfo(value){//Pintar la información de un piso
     fetch('./js/data.json')
         .then(response=>response.json())
         .then(data=>{
+            alert("lets go "+value);
             procesarDatos(data,value);
         })
         .catch(error=>{
@@ -15,6 +16,7 @@ function pintarInfo(value){//Pintar la información de un piso
 function procesarDatos(data,value){//funcion para rellenar el contenido de la pagina correspondiente al piso
     for(let datos of data){
         if(datos.id===value){
+            alert("te pillé")
             let nuevoContenido=`
             <div id="titulo_piso">Zona ${datos.name}</div>
 
