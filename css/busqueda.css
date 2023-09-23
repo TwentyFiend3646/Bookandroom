@@ -126,7 +126,7 @@
     cursor: pointer;
 }
 
-#List_op_cs,#List_op_vl,#List_op_zr,#List_op_mr,#List_op_al,#List_op_tr,#List_op_bc{
+#List_op_cs,#List_op_vl,#List_op_zr,#List_op_mr,#List_op_al,#List_op_tr,#List_op_bc,#List_op_ml,#List_op_gr,#List_op_ab,#List_op_pm{
     background: #dfc6be;
     font-weight: bold;
 }
@@ -145,11 +145,11 @@
     background: #dfc6be;
 }
 
-#cs_list, #vl_list, #zr_list, #mr_list, #al_list, #tr_list,#bc_list{
+#cs_list, #vl_list, #zr_list, #mr_list, #al_list, #tr_list, #bc_list, #ml_list, #gr_list, #ab_list, #pm_list{
     display: flex;
 }
 
-#cs_map, #vl_map, #zr_map, #mr_map, #al_map, #tr_map, #bc_map{
+#cs_map, #vl_map, #zr_map, #mr_map, #al_map, #tr_map, #bc_map, #ml_map, #gr_map, #ab_map, #pm_map{
     display: none;
 }
 
