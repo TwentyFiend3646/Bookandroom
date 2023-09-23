@@ -937,6 +937,30 @@
         "precio_max":"700"
     },
     {
+        "id":"ml_01",
+        "id_ciudad":"ml",
+        "name":"Calle Rebeca",
+        "numero_fotos":5,
+        "numero_habitaciones":4,
+        "precios":{
+            "1":550,
+            "2":360,
+            "3":420,
+            "4":480
+        },
+        "imagen":"./img/pisos/ml/ml_01/portada.webp",
+        "enlace":"./pisos/ml_01",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Televisión"
+        },
+        "precio_min":"360",
+        "precio_max":"550"
+    },
+    {
         "id":"",
         "id_ciudad":"",
         "name":"",

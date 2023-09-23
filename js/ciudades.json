@@ -47,5 +47,33 @@
         "imagen":"./img/cities/bc.webp",
         "mapa":""
 
+    },
+    {
+        "id":"ml",
+        "name":"Málaga",
+        "imagen":"./img/cities/ml.webp",
+        "mapa":""
+
+    },
+    {
+        "id":"gr",
+        "name":"Granada",
+        "imagen":"./img/cities/gr.webp",
+        "mapa":""
+
+    },
+    {
+        "id":"ab",
+        "name":"Albacete",
+        "imagen":"./img/cities/ab.webp",
+        "mapa":""
+
+    },
+    {
+        "id":"pm",
+        "name":"Pamplona",
+        "imagen":"./img/cities/pm.webp",
+        "mapa":""
+
     }
 ]
