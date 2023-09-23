@@ -174,6 +174,80 @@
         "precio_max":"500"
     },
     {
+        "id":"vl_08",
+        "id_ciudad":"vl",
+        "name":"Constitución",
+        "numero_fotos":0,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":380,
+            "2":280,
+            "3":280,
+            "4":360,
+            "5":425
+        },
+        "imagen":"./img/pisos/vl/vl_08/portada.webp",
+        "enlace":"./pisos/vl_08",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"280",
+        "precio_max":"425"
+    },
+    {
+        "id":"vl_09",
+        "id_ciudad":"vl",
+        "name":"Maestro Alberto Luz 29",
+        "numero_fotos":0,
+        "numero_habitaciones":4,
+        "precios":{
+            "1":360,
+            "2":300,
+            "3":450,
+            "4":425
+        },
+        "imagen":"./img/pisos/vl/vl_09/portada.webp",
+        "enlace":"./pisos/vl_09",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"300",
+        "precio_max":"450"
+    },
+    {
+        "id":"vl_10",
+        "id_ciudad":"vl",
+        "name":"Soledad Domenech",
+        "numero_fotos":0,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":420,
+            "2":390,
+            "3":500,
+            "4":420,
+            "5":360
+        },
+        "imagen":"./img/pisos/vl/vl_10/portada.webp",
+        "enlace":"./pisos/vl_10",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"",
+            "3":"",
+            "4":"",
+            "5":""
+        },
+        "precio_min":"390",
+        "precio_max":"500"
+    },
+    {
         "id":"cs_01",
         "id_ciudad":"cs",
         "name":"Corte Inglés",
@@ -815,6 +889,31 @@
         "precio_max":"350"
     },
     {
+        "id":"al_03",
+        "id_ciudad":"al",
+        "name":"Alcalde Lorenzo Carbonell",
+        "numero_fotos":5,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":350,
+            "2":320,
+            "3":300,
+            "4":400,
+            "5":425
+        },
+        "imagen":"./img/pisos/al/al_03/portada.webp",
+        "enlace":"./pisos/al_03",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"FALTA"
+        },
+        "precio_min":"300",
+        "precio_max":"425"
+    },
+    {
         "id":"tr_01",
         "id_ciudad":"tr",
         "name":"Antonio de Bofarull (Reus)",
@@ -910,6 +1009,30 @@
         },
         "precio_min":"300",
         "precio_max":"425"
+    },
+    {
+        "id":"tr_05",
+        "id_ciudad":"tr",
+        "name":"Galanes",
+        "numero_fotos":0,
+        "numero_habitaciones":4,
+        "precios":{
+            "1":420,
+            "2":380,
+            "3":400,
+            "4":330
+        },
+        "imagen":"./img/pisos/tr/tr_05/portada.webp",
+        "enlace":"./pisos/tr_05",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"FALTA"
+        },
+        "precio_min":"330",
+        "precio_max":"420"
     },
     {
         "id":"bc_01",
