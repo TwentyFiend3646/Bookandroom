@@ -227,7 +227,7 @@ a{
         position: relative;
         grid-template-columns: repeat(1,1fr);
         width: 50%;
-        min-width: 400px;
+        min-width: 300px;
         padding: 20px;
         text-align: left;
     }
