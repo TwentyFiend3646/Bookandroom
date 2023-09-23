@@ -961,16 +961,240 @@
         "precio_max":"550"
     },
     {
+        "id":"gr_01",
+        "id_ciudad":"gr",
+        "name":"Salvador Allende",
+        "numero_fotos":9,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":425,
+            "2":400,
+            "3":320,
+            "4":320,
+            "5":360
+        },
+        "imagen":"./img/pisos/gr/gr_01/portada.webp",
+        "enlace":"./pisos/gr_01",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Piscina comunitaria"
+        },
+        "precio_min":"320",
+        "precio_max":"425"
+    },
+    {
+        "id":"gr_02",
+        "id_ciudad":"gr",
+        "name":"Jarrería",
+        "numero_fotos":0,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":430,
+            "2":400,
+            "3":320,
+            "4":320,
+            "5":375
+        },
+        "imagen":"./img/pisos/gr/gr_02/portada.webp",
+        "enlace":"./pisos/gr_02",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Balcon"
+        },
+        "precio_min":"320",
+        "precio_max":"430"
+    },
+    {
+        "id":"gr_03",
+        "id_ciudad":"gr",
+        "name":"Alfareros",
+        "numero_fotos":10,
+        "numero_habitaciones":4,
+        "precios":{
+            "1":320,
+            "2":350,
+            "3":420,
+            "4":280
+        },
+        "imagen":"./img/pisos/gr/gr_03/portada.webp",
+        "enlace":"./pisos/gr_03",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza cerrada"
+        },
+        "precio_min":"280",
+        "precio_max":"420"
+    },
+    {
+        "id":"gr_04",
+        "id_ciudad":"gr",
+        "name":"Dumas",
+        "numero_fotos":12,
+        "numero_habitaciones":4,
+        "precios":{
+            "1":320,
+            "2":320,
+            "3":360,
+            "4":420
+        },
+        "imagen":"./img/pisos/gr/gr_04/portada.webp",
+        "enlace":"./pisos/gr_04",
+        "caracteristicas":{
+            "1":"4 habitaciones",
+            "2":"1 baño",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza exterior"
+        },
+        "precio_min":"320",
+        "precio_max":"420"
+    },
+    {
+        "id":"ab_01",
+        "id_ciudad":"ab",
+        "name":"Concepción",
+        "numero_fotos":6,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":340,
+            "2":280,
+            "3":260,
+            "4":320,
+            "5":300
+        },
+        "imagen":"./img/pisos/ab/ab/ab_01/portada.webp",
+        "enlace":"./pisos/ab_01",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"Terraza cerrada"
+        },
+        "precio_min":"260",
+        "precio_max":"340"
+    },
+    {
+        "id":"ab_02",
+        "id_ciudad":"ab",
+        "name":"Luis Badia",
+        "numero_fotos":8,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":340,
+            "2":280,
+            "3":260,
+            "4":320,
+            "5":300
+        },
+        "imagen":"./img/pisos/ab/ab/ab_02/portada.webp",
+        "enlace":"./pisos/ab_01",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"FALTA"
+        },
+        "precio_min":"260",
+        "precio_max":"340"
+    },
+    {
+        "id":"pm_01",
+        "id_ciudad":"pm",
+        "name":"Monasterio de Irache",
+        "numero_fotos":8,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":400,
+            "2":460,
+            "3":500,
+            "4":550,
+            "5":460
+        },
+        "imagen":"./img/pisos/pm/pm_01/portada.webp",
+        "enlace":"./pisos/pm_01",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"FALTA"
+        },
+        "precio_min":"400",
+        "precio_max":"550"
+    },
+    {
+        "id":"pm_02",
+        "id_ciudad":"pm",
+        "name":"Avenida Pio XII",
+        "numero_fotos":9,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":550,
+            "2":450,
+            "3":580,
+            "4":400,
+            "5":450
+        },
+        "imagen":"./img/pisos/pm/pm_02/portada.webp",
+        "enlace":"./pisos/pm_02",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"FALTA"
+        },
+        "precio_min":"400",
+        "precio_max":"580"
+    },
+    {
+        "id":"pm_03",
+        "id_ciudad":"pm",
+        "name":"Alfonso Batallador",
+        "numero_fotos":8,
+        "numero_habitaciones":5,
+        "precios":{
+            "1":400,
+            "2":450,
+            "3":500,
+            "4":400,
+            "5":550
+        },
+        "imagen":"./img/pisos/pm/pm_03/portada.webp",
+        "enlace":"./pisos/pm_03",
+        "caracteristicas":{
+            "1":"5 habitaciones",
+            "2":"2 baños",
+            "3":"Internet",
+            "4":"Ascensor",
+            "5":"FALTA"
+        },
+        "precio_min":"400",
+        "precio_max":"550"
+    },
+    {
         "id":"",
         "id_ciudad":"",
         "name":"",
         "numero_fotos":0,
         "numero_habitaciones":0,
         "precios":{
-            "1":360,
-            "2":360,
-            "3":360,
-            "4":380
+            "1":0,
+            "2":0,
+            "3":0,
+            "4":0,
+            "5":0
         },
         "imagen":"./img/pisos/",
         "enlace":"./pisos/",
@@ -991,10 +1215,11 @@
         "numero_fotos":0,
         "numero_habitaciones":0,
         "precios":{
-            "1":360,
-            "2":360,
-            "3":360,
-            "4":380
+            "1":0,
+            "2":0,
+            "3":0,
+            "4":0,
+            "5":0
         },
         "imagen":"./img/pisos/",
         "enlace":"./pisos/",
