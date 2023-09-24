@@ -371,7 +371,7 @@
     {
         "id":"cs_06",
         "id_ciudad":"cs",
-        "name":"Donoso Cortés",
+        "name":"Herrero",
         "numero_fotos":12,
         "numero_habitaciones":5,
         "precios":{
@@ -495,32 +495,6 @@
         "precio_max":"340"
     },
     {
-        "id":"cs_11",
-        "id_ciudad":"cs",
-        "name":"Casalduch",
-        "numero_fotos":7,
-        "numero_habitaciones":6,
-        "precios":{
-            "1":330,
-            "2":260,
-            "3":325,
-            "4":230,
-            "5":260,
-            "6":380
-        },
-        "imagen":"./img/pisos/cs/cs_11/portada.webp",
-        "enlace":"./pisos/cs_11",
-        "caracteristicas":{
-            "1":"6 habitaciones",
-            "2":"3 baños",
-            "3":"Internet",
-            "4":"Ascensor",
-            "5":"Televisión"
-        },
-        "precio_min":"260",
-        "precio_max":"380"
-    },
-    {
         "id":"cs_12",
         "id_ciudad":"cs",
         "name":"Pintor Soler Blasco",
@@ -593,30 +567,6 @@
         },
         "precio_min":"350",
         "precio_max":"380"
-    },
-    {
-        "id":"cs_15",
-        "id_ciudad":"cs",
-        "name":"Sagunto",
-        "numero_fotos":10,
-        "numero_habitaciones":4,
-        "precios":{
-            "1":300,
-            "2":315,
-            "3":330,
-            "4":300
-        },
-        "imagen":"./img/pisos/cs/cs_15/portada.webp",
-        "enlace":"./pisos/cs_15",
-        "caracteristicas":{
-            "1":"4 habitaciones",
-            "2":"2 baños",
-            "3":"Internet",
-            "4":"Ascensor",
-            "5":"Climatizado"
-        },
-        "precio_min":"300",
-        "precio_max":"330"
     },
     {
         "id":"cs_16",
