@@ -332,9 +332,85 @@ a{
         left:20px;
     }
 
+    #bann_ecopde{
+        border: 2px solid #fff;
+        border-radius: 6px;
+        padding: 4px;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+
+    #banner_img{
+        display: none;
+        opacity: 1;
+        width: 80%;
+        max-width: 800px;
+        position: absolute;
+        bottom: -10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: .5vw solid #b48372;
+        border-radius: 6px;
+        animation: fadeInOut .5s;
+    }
+
+    @keyframes fadeInOut{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    #banner_img img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #banner_img div{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0px;
+    }
+
+    #banner_img div #mark{
+        font-size: 30px;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        padding: 0 10px 0 10px;
+        margin: 0 auto;
+        background-color: #444444ab;
+    }
+
+    #banner_img div #close{
+        opacity: 0;
+        font-size: 20px;
+        color: #fff;
+        padding: 2px;
+        margin: 0 auto;
+        background-color: #444444ab;
+        transition: all .5s ease;
+    }
+
+    #mark:hover{
+        cursor: pointer;
+    }
+
+    #banner_img div:hover #close{
+        opacity: 1;
+        transition: all .5s ease;
+    }
+
     .propiedad{
         color: rgb(255, 255, 255);
-        font-size: 12px;
+        font-size: 16px;
     }
 
     @media(max-width:900px){

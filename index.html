@@ -163,6 +163,27 @@
     <br>
     <hr class="hr_footer">
     <br>
+    <a id="bann_ecopde" href="#bottom" onclick="oppenbanner()">Con la subvención de LABORA</a>
+    <div id="banner_img">
+        <img src="./img/pics/banner_LABORA.jpg" alt="Campaña LABORA">
+        <div>
+            <p id="mark" onclick="closebanner()">X</p>
+            <p id="close">cerrar</p>
+        </div>
+    </div>
+    <script>
+        function oppenbanner(){
+            let banner=document.getElementById("banner_img");
+            banner.style.display="flex";
+            document.getElementById("bann_ecopde").style.opacity=0;
+        };
+        function closebanner(){
+            let banner=document.getElementById("banner_img");
+            banner.style.display="none";
+            document.getElementById("bann_ecopde").style.opacity=1;
+        };
+    </script>
+    <br id="bottom">
     <p class="propiedad fas fa-copyright">2023 Book&Room</p>
 </footer>
         
