@@ -39,7 +39,7 @@ function procesarDatos(data,value){//funcion para listar cada ciudad con las car
 }
 
 function abrirPiso(idPiso){
-    var ruta='./pisos/selection.html';
+    var ruta='./pisos/selection';
     window.open(ruta + '?id=' + idPiso,'_blank');
 }
 
