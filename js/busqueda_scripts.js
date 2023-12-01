@@ -19,7 +19,7 @@ function procesarDatos(data,value){//funcion para listar cada ciudad con las car
                 <h3 class="name">Piso en zona ${datos.name}</h3>
                 <div class="img_container">
                     <img class="img_piso" src="${datos.imagen}"alt="imagen.jpg">
-                    <a class="acceso_piso" href="${datos.enlace}" target="_blank">Más info</a>
+                    <a class="acceso_piso" onclick="abrirPiso('${datos.id}')>Más info</a>
                 </div>
     
                 <ul class="descripcion">
@@ -36,6 +36,11 @@ function procesarDatos(data,value){//funcion para listar cada ciudad con las car
         }
     }
         
+}
+
+function abrirPiso(idPiso){
+    var ruta='./pisos/modelo.html';
+    window.open(ruta + '?id=' + idPiso,'_blank');
 }
 
 function pintarCiudades(){//carga el json de las ciudades y las imprime
