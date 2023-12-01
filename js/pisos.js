@@ -1,9 +1,11 @@
 
 
-function pintarInfo(value){//Pintar la información de un piso
+function pintarInfo(){//Pintar la información de un piso
     fetch('../js/data.json')
         .then(response=>response.json())
         .then(data=>{
+            var urlParams=new URLSearchParams(window.location.search);
+            var value=urlParams.get('id');
             procesarDatos(data,value);
         })
         .catch(error=>{
